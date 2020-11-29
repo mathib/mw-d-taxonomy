@@ -1,0 +1,436 @@
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen> <http://creativecommons.org/ns#license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen> <http://purl.org/dc/terms/creator> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Individual> .
+<http://www.w3.org/2006/vcard/ns#Individual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/2006/vcard/ns#family-name> "Bonduel" .
+_:genid1 <http://www.w3.org/2006/vcard/ns#fn> "Mathias Bonduel" .
+_:genid1 <http://www.w3.org/2006/vcard/ns#given-name> "Mathias" .
+_:genid1 <http://www.w3.org/2006/vcard/ns#hasOrganizationName> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Organization> .
+<http://www.w3.org/2006/vcard/ns#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid2 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.kuleuven.be> .
+_:genid2 <http://www.w3.org/2006/vcard/ns#organization-name> "KU Leuven" .
+_:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://orcid.org/0000-0002-3313-924X> .
+_:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.kuleuven.be/wieiswie/nl/person/00110827> .
+_:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.researchgate.net/profile/Mathias_Bonduel> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen> <http://purl.org/dc/terms/decription> "The Monumentenwacht Vlaanderen Damage ontology is manually created based on existing PDF reports of Monumentenwacht regarding damage inspections. In its current state, it contains content regarding timber damage [1] and damage caused by insects [2]. It is defined as an extension of the generic Damage Topology Ontology (DOT, available at https://w3id.org/dot#).\r\n  [1] Schoeters, E., Heerwegh, L., & van Laar, B. (2005). Biologische aantastingen in hout. Retrieved from https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf\r\n  [2] Deknopper, A. (2010). Dieren in en op Gebouwen: Insecten. Retrieved from https://www.monumentenwacht.be/files/brochure_insecten.pdf"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen> <http://purl.org/dc/terms/issued> "2020-11-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen> <http://purl.org/dc/terms/title> "Monumentenwacht Vlaanderen Damage Ontology"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen> <http://purl.org/vocab/vann/preferredNamespacePrefix> "mw-d" .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#" .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen> <http://www.w3.org/2000/01/rdf-schema#comment> "- Version 0.0.1: initial version"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/decription
+<http://purl.org/dc/terms/decription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#family-name
+<http://www.w3.org/2006/vcard/ns#family-name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#fn
+<http://www.w3.org/2006/vcard/ns#fn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#given-name
+<http://www.w3.org/2006/vcard/ns#given-name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#hasOrganizationName
+<http://www.w3.org/2006/vcard/ns#hasOrganizationName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#hasURL
+<http://www.w3.org/2006/vcard/ns#hasURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/vcard/ns#organization-name
+<http://www.w3.org/2006/vcard/ns#organization-name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/vocommons/voaf#Vocabulary
+<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2006/vcard/ns#Individual
+# 
+# http://www.w3.org/2006/vcard/ns#Organization
+# 
+# https://mdcs.monumentenkennis.nl/damageatlas/ontology#Natural-stone-damage_Biological-growth
+<https://mdcs.monumentenkennis.nl/damageatlas/ontology#Natural-stone-damage_Biological-growth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Natural-stone-damage_Biological-growth_Insects
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Natural-stone-damage_Biological-growth_Insects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Natural-stone-damage_Biological-growth_Insects> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://mdcs.monumentenkennis.nl/damageatlas/ontology#Natural-stone-damage_Biological-growth> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Natural-stone-damage_Biological-growth_Insects> <http://www.w3.org/2000/01/rdf-schema#label> "Insecten"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Natural-stone-damage_Biological-growth_Insects> <http://www.w3.org/2000/01/rdf-schema#label> "Insects"@en .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Natural-stone-damage_Biological-growth_Insects_European-orchard-bee
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Natural-stone-damage_Biological-growth_Insects_European-orchard-bee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Natural-stone-damage_Biological-growth_Insects_European-orchard-bee> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Natural-stone-damage_Biological-growth_Insects> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Natural-stone-damage_Biological-growth_Insects_European-orchard-bee> <http://www.w3.org/2000/01/rdf-schema#comment> "Zachtere natuursteensoorten - zoals Maastrichtersteen (beter bekend als mergelsteen) en Diestiaanse ijzerzandsteen - kunnen een geperforeerd oppervlak vertonen met her en der ronde openingen (5mm). Die worden gemaakt door onder andere graafwespen en metselbijen zoals de gehoornde metselbij (Osmia cornuta). Achter de openingen kan een heel gangenstelsel liggen, het werk van vruchtbare wijfjes die er eitjes leggen en waarin ze de larven voeden. De voorzijde van de gangen worden afgedicht met klei. De schade kan met röntgenstralen in kaart gebracht en gekwantificeerd worden, om te bepalen of er consolidatie vereist is. Dat is te vermijden met een kunstmatige biotoop."@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Natural-stone-damage_Biological-growth_Insects_European-orchard-bee> <http://www.w3.org/2000/01/rdf-schema#label> "European orchard bee"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Natural-stone-damage_Biological-growth_Insects_European-orchard-bee> <http://www.w3.org/2000/01/rdf-schema#label> "Gehoornde metselbij"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Natural-stone-damage_Biological-growth_Insects_European-orchard-bee> <http://www.w3.org/2000/01/rdf-schema#label> "Osmia cornuta"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Natural-stone-damage_Biological-growth_Insects_European-orchard-bee> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=18" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dot#ClassifiedDamage> .
+<https://w3id.org/dot#ClassifiedDamage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage> <http://www.w3.org/2000/01/rdf-schema#label> "Paper or other vegetable material"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage> <http://www.w3.org/2000/01/rdf-schema#label> "Papier of ander plantaardig materiaal"@nl .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth> <http://www.w3.org/2000/01/rdf-schema#label> "Biological growth"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth> <http://www.w3.org/2000/01/rdf-schema#label> "Biologische groei"@nl .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects> <http://www.w3.org/2000/01/rdf-schema#label> "Insecten"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects> <http://www.w3.org/2000/01/rdf-schema#label> "Insects"@en .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Bread-beetle
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Bread-beetle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Bread-beetle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Bread-beetle> <http://www.w3.org/2000/01/rdf-schema#comment> "Deze kever behoort tot dezelfde familie als de kleine klopkever en lijkt er sterk op. Hij is eerder roodbruin en wat korter of kleiner (2-3 mm), heeft geen punt op de bovenzijde van het nekschild maar meer haartjes op zijn dekschilden. Dat verschil is erg belangrijk om hem niet onnodig te bestrijden. De larven eten geen hout maar harde, zetmeelhoudende, plantaardige materialen zoals graan en zaden. Ook herbaria en geneeskrachtige planten vallen erg in hun smaak. Ze tasten zelfs planten aan die voor andere insecten giftig zijn, vandaar hun Engelse benaming 'drugstore beetle'. Bij het uitvliegen maken ze ronde uitvliegopeningen. Het hoofdbestanddeel van het feromoon waarmee de vrouwtjes de mannetjes lokken is stegobinone, wat ook de klopkever gebruikt. Er bestaan plakvallen met feromonen waarmee zowel broodkevers als klopkevers gevangen worden (zie ook Opsporing houtaantasters)."@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Bread-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Bread beetle"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Bread-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Broodkever"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Bread-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Stegobium paniceum"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Bread-beetle> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=17" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Cockroaches
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Cockroaches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Cockroaches> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Cockroaches> <http://www.w3.org/2000/01/rdf-schema#comment> "Kakkerlakken zijn enkel 's nachts actief en houden zich overdag goed verstopt. In kerkgebouwen hebben we ze nog niet aangetroffen: ze verkiezen stedelijke gebieden, goed verwarmde gebouwen met drank- en eetgelegenheden en een gebrekkige hygiëne. In eerste instantie voeden ze zich met etensresten en schimmels. Daarna beginnen ze aan de collectie. Deze alleseters lusten ook papier, leder en textiel. Ze leven niet in het object zelf, maar maken gaten en vlekken. Zowel de nimfen als de volwassen kakkerlakken kunnen gevangen worden met plakvallen met een voedsellokstof. Het is echter niet altijd eenvoudig om hun schuilplaats te vinden. Omdat ze dikwijls dragers zijn van ziekten en voor vuil- en geuroverlast zorgen, wordt er vaak een beroep gedaan op een professionele firma om ze te bestrijden."@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Cockroaches> <http://www.w3.org/2000/01/rdf-schema#label> "Blattellidae - Blattidae"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Cockroaches> <http://www.w3.org/2000/01/rdf-schema#label> "Cockroaches"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Cockroaches> <http://www.w3.org/2000/01/rdf-schema#label> "Kakkerlakken"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Cockroaches> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=18" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Deathwatch-or-Spider-beetle
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Deathwatch-or-Spider-beetle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Deathwatch-or-Spider-beetle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Deathwatch-or-Spider-beetle> <http://www.w3.org/2000/01/rdf-schema#comment> "Deze kevers komen vaak voor in vogelnesten en op plaatsen waar ze zich kunnen voeden met een brede waaier van plantaardig en dierlijk afval. De volwassen kevers (3-5 mm) zijn meestal bruin, nogal harig en door hun dikke lijf en lange poten lijken ze wat op spinnetjes. De larven maken vaak gangen in harde materialen en kunnen de oppervlakte van aangetast hout afknagen. De volwassen insecten tasten papier, insectencollecties, dierenhuiden en textiel aan. De larven kunnen rottend hout gebruiken om te verpoppen."@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Deathwatch-or-Spider-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Deathwatch or spider beetle"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Deathwatch-or-Spider-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Diefkevers of spinkevers"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Deathwatch-or-Spider-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Ptinidae"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Deathwatch-or-Spider-beetle> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=17" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Dust-or-book-lice
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Dust-or-book-lice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Dust-or-book-lice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Dust-or-book-lice> <http://www.w3.org/2000/01/rdf-schema#comment> "Deze meestal vleugelloze luizen (Liposcelis spp.) zijn erg klein (< 1mm), wit of lichtbruin en half doorzichtig. Je herkent ze aan hun drukke heen-en-weergeloop, hun dikke achterlijf en hun lange voelsprieten. Ze verkiezen ruimten met een zeer hoge luchtvochtigheid (RV > 80 %), waar ze zich voeden met schimmels en zetmeel op tal van substraten. Bij hoge temperaturen vermenigvuldigen ze zich snel. In massa kunnen ze graasschade aanrichten in boeken insectencollecties, herbaria en achter behangpapier."@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Dust-or-book-lice> <http://www.w3.org/2000/01/rdf-schema#label> "Dust or book lice"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Dust-or-book-lice> <http://www.w3.org/2000/01/rdf-schema#label> "Psocoptera - Liposcelidae"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Dust-or-book-lice> <http://www.w3.org/2000/01/rdf-schema#label> "Stofluizen of boekluizen"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Dust-or-book-lice> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=17" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Firebrat
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Firebrat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Firebrat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Firebrat> <http://www.w3.org/2000/01/rdf-schema#comment> "Dit bruine of grijze insect heeft donkere vlekken op de bovenkant. Het is iets dikker en groter (tot 20 mm) dan de andere twee soorten, is borstelachtig behaard en heeft langere staartharen en voelsprieten dan het zilvervisje. Het heeft een voorkeur voor warme ruimten, precies waar boeken papiermateriaal meestal te vinden zijn. Het richt meer schade aan dan het zilvervisje en is moeilijker te bestrijden."@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Firebrat> <http://www.w3.org/2000/01/rdf-schema#label> "Firebrat"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Firebrat> <http://www.w3.org/2000/01/rdf-schema#label> "Ovenvisje"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Firebrat> <http://www.w3.org/2000/01/rdf-schema#label> "Thermobia domestica"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Firebrat> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=16" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Paperfish
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Paperfish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Paperfish> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Paperfish> <http://www.w3.org/2000/01/rdf-schema#comment> "Het papiervisje komt wellicht het meest voor. Het heeft donkergrijze schubjes en voelsprieten die even lang zijn als het lichaam, dat borstelachtig behaard is. Naast papier eet het ook zwakkere soortgenoten en afgeworpen huidjes."@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Paperfish> <http://www.w3.org/2000/01/rdf-schema#label> "Ctenolepisma longicaudatum"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Paperfish> <http://www.w3.org/2000/01/rdf-schema#label> "Paper silverfish"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Paperfish> <http://www.w3.org/2000/01/rdf-schema#label> "Papiervisje "@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Paperfish> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=16" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Silvervish
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Silvervish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Silvervish> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Silvervish> <http://www.w3.org/2000/01/rdf-schema#comment> "Zilvervisjes vind je in erg vochtige plaatsen (RV > 70 %) zoals sanitaire ruimten. Hun aanwezigheid in een collectie wijst dus op een vochtprobleem. Ze voeden zich vooral met schimmels waaronder plantaardige lijmen, zoals bloempap waarmee vroeger behangen werd. Ze eten ook het behangpapier zelf, maar hebben een afkeer van bedrukte of kleurrijke stukken."@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Silvervish> <http://www.w3.org/2000/01/rdf-schema#label> "Lepisma saccharina"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Silvervish> <http://www.w3.org/2000/01/rdf-schema#label> "Silverfish"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Silvervish> <http://www.w3.org/2000/01/rdf-schema#label> "Zilvervisje"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Silvervish> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=16" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Thrips
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Thrips> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Thrips> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Thrips> <http://www.w3.org/2000/01/rdf-schema#comment> "Bij ingelijste papieren documenten vinden monumentenwachters wel eens tripsen terug. Dat zijn erg kleine (+/- 1mm), donkergekleurde insecten met een smal, lang lichaam. Ze hebben twee paar pluimachtige of gerafelde vleugels. Ze worden ook wel onweers- of donderbeestjes genoemd. Tripsen dringen binnen in kleine ruimtes, bijvoorbeeld in of achter een glasplaat waar ze visuele overlast geven. Mogelijk voeden ze zich daar met de sappen uit schimmels die in en op het papier zitten."@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Thrips> <http://www.w3.org/2000/01/rdf-schema#label> "Thrips"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Thrips> <http://www.w3.org/2000/01/rdf-schema#label> "Thysanoptera"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Thrips> <http://www.w3.org/2000/01/rdf-schema#label> "Tripsen "@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Thrips> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=18" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Venerable-silverfish
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Venerable-silverfish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Venerable-silverfish> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Venerable-silverfish> <http://www.w3.org/2000/01/rdf-schema#comment> "Deze ongevleugelde insecten maken nauwelijks een gedaanteverwisseling door. De drie voornaamste soorten lijken sterk op elkaar: vrij kleine (10-15 mm), spoelvormige insecten met schubben op het lichaam, drie staartharen en twee voelsprieten. Ze worden ook wel 'suikergasten' genoemd omdat ze erg van zetmeel en suikers houden. Ze voeden zich met cellulosehoudend materiaal zoals papier en lijm. Papier beschadigen ze door er laagjes af te grazen of er onregelmatige gaatjes in te bijten. Textiel dat met stijfsel behandeld is, staat ook op hun menu. Ze zijn erg lichtschuw, waardoor ze vooral 's nachts actief zijn en snel wegkruipen als je er met een zaklamp op schijnt."@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Venerable-silverfish> <http://www.w3.org/2000/01/rdf-schema#label> "Silverfish"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Venerable-silverfish> <http://www.w3.org/2000/01/rdf-schema#label> "Thysanura"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Venerable-silverfish> <http://www.w3.org/2000/01/rdf-schema#label> "Zilvervisjes"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Venerable-silverfish> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=16" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dot#ClassifiedDamage> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage> <http://www.w3.org/2000/01/rdf-schema#label> "Textiel"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage> <http://www.w3.org/2000/01/rdf-schema#label> "Textile"@en .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth> <http://www.w3.org/2000/01/rdf-schema#label> "Biological growth"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth> <http://www.w3.org/2000/01/rdf-schema#label> "Biologische groei"@nl .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects> <http://www.w3.org/2000/01/rdf-schema#label> "Insecten"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects> <http://www.w3.org/2000/01/rdf-schema#label> "Insects"@en .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Casemaking-clothes-moth
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Casemaking-clothes-moth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Casemaking-clothes-moth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Casemaking-clothes-moth> <http://www.w3.org/2000/01/rdf-schema#comment> "Schade: \r\n\t\t\t\t\t\t\t\t\t\t   - afgegraasd textiel (fluweel), geen gaatjes\r\n\t\t\t\t\t\t\t\t\t\t   volwassen insect: \r\n\t\t\t\t\t\t\t\t\t\t   - 5tot7mm \r\n\t\t\t\t\t\t\t\t\t\t   - idem als kleermot, maar met twee bruine vlekjes op elke goudkleurige voorvleugel\r\n\t\t\t\t\t\t\t\t\t\t   larve: \r\n\t\t\t\t\t\t\t\t\t\t   - verscholen in zijden huls of koker, aan één zijde open \r\n\t\t\t\t\t\t\t\t\t\t   - aan het einde van de ontwikkeling: doorzichtige, geelachtige cocon in de huls\r\n\t\t\t\t\t\t\t\t\t\t   sporen: /\r\n\t\t\t\t\t\t\t\t\t\t   favoriete materialen en locaties: \r\n\t\t\t\t\t\t\t\t\t\t   - larven in wol, bont en veren, ook vogelnesten \r\n\t\t\t\t\t\t\t\t\t\t   - donkere, moeilijk toegankelijke plaatsen\r\n\t\t\t\t\t\t\t\t\t\t   verwant met: \r\n\t\t\t\t\t\t\t\t\t\t   - de tapijtmot (Trichophaga tapetzella), de grootste kleermot die vaak voor komt in braakballen van bijvoorbeeld de kerkuil maar nauwelijks schade aanricht aan textiel in een interieur"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Casemaking-clothes-moth> <http://www.w3.org/2000/01/rdf-schema#label> "Casemaking clothes moth"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Casemaking-clothes-moth> <http://www.w3.org/2000/01/rdf-schema#label> "Pelsmot"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Casemaking-clothes-moth> <http://www.w3.org/2000/01/rdf-schema#label> "Tinea pellionella"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Casemaking-clothes-moth> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=14" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Clothes-moth
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Clothes-moth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Clothes-moth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Clothes-moth> <http://www.w3.org/2000/01/rdf-schema#comment> "Schade: \r\n\t\t\t\t\t\t\t\t\t\t\t   - onregelmatige gaten in textiel\r\n\t\t\t\t\t\t\t\t\t\t\t   volwassen insect: \r\n\t\t\t\t\t\t\t\t\t\t\t   - 5tot7mm \r\n\t\t\t\t\t\t\t\t\t\t\t   - effen, licht glanzende, goudkleurige vleugels, die in rust het achterlijf bedekken \r\n\t\t\t\t\t\t\t\t\t\t\t   - levenscyclus van amper een paar weken \r\n\t\t\t\t\t\t\t\t\t\t\t   - meestal binnengebracht via besmette voorwerpen\r\n\t\t\t\t\t\t\t\t\t\t\t   larve: \r\n\t\t\t\t\t\t\t\t\t\t\t   - wit, lang en smal: 10 mm \r\n\t\t\t\t\t\t\t\t\t\t\t   - rond bruin kopje \r\n\t\t\t\t\t\t\t\t\t\t\t   - komen voor als naakte larve of verscholen in een beschermende koker \r\n\t\t\t\t\t\t\t\t\t\t\t   - levenscyclus van bijna 1 jaar\r\n\t\t\t\t\t\t\t\t\t\t\t   sporen: \r\n\t\t\t\t\t\t\t\t\t\t\t   - afval, tunnelvormige spinsels en korrels\r\n\t\t\t\t\t\t\t\t\t\t\t   favoriete materialen en locaties: \r\n\t\t\t\t\t\t\t\t\t\t\t   - donkere plaatsen \r\n\t\t\t\t\t\t\t\t\t\t\t   - vervuild textiel zoals wol, bont en veren \r\n\t\t\t\t\t\t\t\t\t\t\t   - vogelnesten en dierlijke uitwerpselen\r\n\t\t\t\t\t\t\t\t\t\t\t   verwant met: /"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Clothes-moth> <http://www.w3.org/2000/01/rdf-schema#label> "Clothing moth"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Clothes-moth> <http://www.w3.org/2000/01/rdf-schema#label> "Kleermot"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Clothes-moth> <http://www.w3.org/2000/01/rdf-schema#label> "Tineola bisselliella"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Clothes-moth> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=14" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Fur-beetle
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Fur-beetle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Fur-beetle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Fur-beetle> <http://www.w3.org/2000/01/rdf-schema#comment> "Schade: /\r\n\t\t\t\t\t\t\t\t\t\t\t volwassen insect: \r\n\t\t\t\t\t\t\t\t\t\t\t - 4tot6mm \r\n\t\t\t\t\t\t\t\t\t\t\t - zwart met één opvallend wit vlekje op dekschild\r\n\t\t\t\t\t\t\t\t\t\t\t larve: \r\n\t\t\t\t\t\t\t\t\t\t\t - 8tot11mm \r\n\t\t\t\t\t\t\t\t\t\t\t - bruingeel, borstelig, langwerpig \r\n\t\t\t\t\t\t\t\t\t\t\t - staartharen en korte haren op lichaam \r\n\t\t\t\t\t\t\t\t\t\t\t - vervellen enkele keren \r\n\t\t\t\t\t\t\t\t\t\t\t sporen: /\r\n\t\t\t\t\t\t\t\t\t\t\t favoriete materialen en locaties: \r\n\t\t\t\t\t\t\t\t\t\t\t - vogelnesten en dierlijke uitwerpselen\r\n\t\t\t\t\t\t\t\t\t\t\t - huiden van insecten, vogels en dieren \r\n\t\t\t\t\t\t\t\t\t\t\t verwant met: \r\n\t\t\t\t\t\t\t\t\t\t\t - Attagenus woodroffei die donkerbruin is en witte haartjes heeft die in banden over de dekschilden lopen. Ook de lange larven zijn erg gelijkend."@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Fur-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Attagenus pellio"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Fur-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Fur beetle"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Fur-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Pelskever"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Fur-beetle> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=14" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Larder-beetle
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Larder-beetle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Larder-beetle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Larder-beetle> <http://www.w3.org/2000/01/rdf-schema#comment> "Schade: /\r\n\t\t\t\t\t\t\t\t\t\t\t   volwassen insect: \r\n\t\t\t\t\t\t\t\t\t\t\t   - 6tot10mm \r\n\t\t\t\t\t\t\t\t\t\t\t   - bruin tot zwart \r\n\t\t\t\t\t\t\t\t\t\t\t   - bovenste helft van dekschilden donkergeel behaard met zes zwarte stipjes\r\n\t\t\t\t\t\t\t\t\t\t\t   larve: \r\n\t\t\t\t\t\t\t\t\t\t\t   - 10tot13mm \r\n\t\t\t\t\t\t\t\t\t\t\t   - lang en smal \r\n\t\t\t\t\t\t\t\t\t\t\t   - bruinachtige rug en dunne lange haartjes \r\n\t\t\t\t\t\t\t\t\t\t\t   - geen staartharen, maar twee haakjes aan uiteinde \r\n\t\t\t\t\t\t\t\t\t\t\t   - werpen tot 6 keer huidjes af\r\n\t\t\t\t\t\t\t\t\t\t\t   sporen: \r\n\t\t\t\t\t\t\t\t\t\t\t   - larvenhuidjes tussen duivenuitwerpselen\r\n\t\t\t\t\t\t\t\t\t\t\t   favoriete materialen en locaties: \r\n\t\t\t\t\t\t\t\t\t\t\t   - dode dieren, insecten en vogelnesten, op zolders en in torens \r\n\t\t\t\t\t\t\t\t\t\t\t   - wol en zijde \r\n\t\t\t\t\t\t\t\t\t\t\t   - rottend hout (waarin larven verpoppen)\r\n\t\t\t\t\t\t\t\t\t\t\t   verwant met: \r\n\t\t\t\t\t\t\t\t\t\t\t   - Dermestes maculatus en Dermestes haemorrhoidalis die volledig zwart zijn en geen haartjes hebben op de dekschilden."@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Larder-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Dermestes lardarius"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Larder-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Larder beetle"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Larder-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Spekkever"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Larder-beetle> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=14" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Varied-carpet-and-Museum-beetle
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Varied-carpet-and-Museum-beetle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Varied-carpet-and-Museum-beetle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Varied-carpet-and-Museum-beetle> <http://www.w3.org/2000/01/rdf-schema#comment> "Schade: \r\n\t\t\t\t\t\t\t\t\t\t\t\t- kleine gaatjes in textiel \r\n\t\t\t\t\t\t\t\t\t\t\t\t- kale plekken in pels en bont \r\n\t\t\t\t\t\t\t\t\t\t\t\t- opgezette insectengeperforeerd of weggevreten\r\n\t\t\t\t\t\t\t\t\t\t\t\tvolwassen insect: \r\n\t\t\t\t\t\t\t\t\t\t\t\t- ca.2mm \r\n\t\t\t\t\t\t\t\t\t\t\t\t- bijna rond \r\n\t\t\t\t\t\t\t\t\t\t\t\t- witte en oranje schubjes op donkere dekschilden hun schade \r\n\t\t\t\t\t\t\t\t\t\t\t\tlarve: \r\n\t\t\t\t\t\t\t\t\t\t\t\t- >1mm als ze uit eitjes komen, tot 5 mm \r\n\t\t\t\t\t\t\t\t\t\t\t\t- kort en ovaal \r\n\t\t\t\t\t\t\t\t\t\t\t\t- borstelig uiterlijk met ruige haartjes ('wolbeertjes')\r\n\t\t\t\t\t\t\t\t\t\t\t\t- vervellen enkele keren, waarbij behaarde, doorzichtige huidjes achterblijven op textiel, opengebarsten in het midden.\r\n\t\t\t\t\t\t\t\t\t\t\t\tsporen: \r\n\t\t\t\t\t\t\t\t\t\t\t\t- uitwerpselen lijken op erg fijn zand dat de kleur heeft van het textiel of het aangetaste materiaal\r\n\t\t\t\t\t\t\t\t\t\t\t\tfavoriete materialen en locaties: \r\n\t\t\t\t\t\t\t\t\t\t\t\t- eitjes in vogelnestjes en op kadavers van duiven \r\n\t\t\t\t\t\t\t\t\t\t\t\t- larven in dode insecten en opgezette dieren; vandaar veel in musea \r\n\t\t\t\t\t\t\t\t\t\t\t\t- bloemen voor het stuifmeel en de nectar\r\n\t\t\t\t\t\t\t\t\t\t\t\tverwant met: /"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Varied-carpet-and-Museum-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Anthrenus verbasci / Anthrenus museorum"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Varied-carpet-and-Museum-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Tapijt- en museumkever"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Varied-carpet-and-Museum-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Varied carpet and Museum beetle"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Varied-carpet-and-Museum-beetle> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=12" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/dot#ClassifiedDamage> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage> <http://www.w3.org/2000/01/rdf-schema#label> "Hout"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage> <http://www.w3.org/2000/01/rdf-schema#label> "Timber"@en .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth> <http://www.w3.org/2000/01/rdf-schema#label> "Biological growth"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth> <http://www.w3.org/2000/01/rdf-schema#label> "Biologische groei"@nl .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi> <http://www.w3.org/2000/01/rdf-schema#label> "Fungi"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi> <http://www.w3.org/2000/01/rdf-schema#label> "Schimmels en zwammen"@nl .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Black-yeast
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Black-yeast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Black-yeast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Black-yeast> <http://www.w3.org/2000/01/rdf-schema#comment> "Schade: blijvende grijsblauwe verkleuring\r\n  Herkenbaar aan:\r\n  - Schimmelweefsel (mycelium): soms draden (niet zichtbaar)\r\n  - Strengen (rhizomorfen): geen\r\n  - Vruchtlichaam (carpoforen en sporen): zwartachtige vruchtlichamen, een speldenknop groot\r\n  Milieu: houtvochtgehalte > 22% optimale T: 25°C"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Black-yeast> <http://www.w3.org/2000/01/rdf-schema#label> "Aureobasidium pullulans"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Black-yeast> <http://www.w3.org/2000/01/rdf-schema#label> "Black yeast"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Black-yeast> <http://www.w3.org/2000/01/rdf-schema#label> "Blauwschimmel"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Black-yeast> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Bracket-fungi
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Bracket-fungi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Bracket-fungi> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Bracket-fungi> <http://www.w3.org/2000/01/rdf-schema#comment> "Schade: BRUINROT: kubische krimpscheuren, veelal lokaal\r\n  Herkenbaar aan:\r\n  - Schimmelweefsel (mycelium): geen weefsel op hout, wel in scheuren: beige of lichtbruin\r\n  - Strengen (rhizomorfen): geen\r\n  - Vruchtlichaam (carpoforen en sporen): consolevormig, plaatjes of porie_n onderaan, licht- tot donkerbruin (ook grillige vormen) bij uitdroging kurkachtig; roestbruine sporen\r\n  Milieu: naaldhout (en niet duurzaam loofhout).optimale T: 30° tot 35°C houtvochtgehalte: 40%"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Bracket-fungi> <http://www.w3.org/2000/01/rdf-schema#label> "Bracket fungi"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Bracket-fungi> <http://www.w3.org/2000/01/rdf-schema#label> "Gloeophyllum spp."@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Bracket-fungi> <http://www.w3.org/2000/01/rdf-schema#label> "Plaatjeshoutzwammen"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Bracket-fungi> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Cellar-fungus
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Cellar-fungus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Cellar-fungus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Cellar-fungus> <http://www.w3.org/2000/01/rdf-schema#comment> "Schade: BRUINROT: ondiepe, fijne kubische krimpscheuren, het hout kleurt donkerbruin\r\n  Herkenbaar aan:\r\n  - Schimmelweefsel (mycelium): komt zelden voor, beige, geelbruin, donkerbruin\r\n  - Strengen (rhizomorfen): aanvankelijk geelachtig en dun, later donkerbruin tot zwart, meestal is de opbouw waaiervormig\r\n  - Vruchtlichaam (carpoforen en sporen): zeldzaam! plaatvorm met knobbels, okerkleurig tot olijfbruin, witte rand\r\n  Milieu: naaldhout en loofhout optimale T: 25° tot 3°C houtvochtgehalte: 50 tot 60%"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Cellar-fungus> <http://www.w3.org/2000/01/rdf-schema#label> "Cellar fungus"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Cellar-fungus> <http://www.w3.org/2000/01/rdf-schema#label> "Coniophora puteana / Coniophora marmorata"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Cellar-fungus> <http://www.w3.org/2000/01/rdf-schema#label> "Kelderzwam"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Cellar-fungus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Cup-fungus
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Cup-fungus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Cup-fungus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Cup-fungus> <http://www.w3.org/2000/01/rdf-schema#comment> "Schade: geen\r\n  Herkenbaar aan:\r\n\t- Schimmelweefsel (mycelium): vaak niet zichtbaar \r\n\t- Strengen (rhizomorfen): geen \r\n\t- Vruchtlichaam (carpoforen en sporen): beige; bruin, soms oranjeachtig komvormig op kort steeltjes\r\n\tMilieu: op metselwerk, in scheurtjes van plafondbepleistering, op tengellatjes"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Cup-fungus> <http://www.w3.org/2000/01/rdf-schema#label> "Bekerzwam"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Cup-fungus> <http://www.w3.org/2000/01/rdf-schema#label> "Cup fungus"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Cup-fungus> <http://www.w3.org/2000/01/rdf-schema#label> "Peziza spp."@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Cup-fungus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Dry-rot-fungus
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Dry-rot-fungus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Dry-rot-fungus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Dry-rot-fungus> <http://www.w3.org/2000/01/rdf-schema#comment> "Schade: BRUINROT: veelal diepe kubische krimpscheuren, hout kleurt donkerbruin\r\n  Herkenbaar aan:\r\n  - Schimmelweefsel (mycelium): witte vlokken, viltachtig, soms gele of rode vlekken, later grauw verkleuren\r\n  - Strengen (rhizomorfen): aanvankelijk plat, soepel en wit; later rond, stijf en grijs, bruin of zwart (spinnenwebachtige structuur)\r\n  - Vruchtlichaam (carpoforen en sporen): plaat- of consolevormig; roest- of geelbruin, witte rand adervormige plooien, ondiepe poriën, roestbruine sporen (stoflaag)\r\n  Milieu: naaldhout en loofhout optimale t: 18° tot 20°C houtvochtgehalte: 30 tot 40% (opgelet: verspreidt zich over gelijk welk materiaal)"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Dry-rot-fungus> <http://www.w3.org/2000/01/rdf-schema#label> "Dry rot fungus"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Dry-rot-fungus> <http://www.w3.org/2000/01/rdf-schema#label> "Huiszwam"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Dry-rot-fungus> <http://www.w3.org/2000/01/rdf-schema#label> "Serpula lacrymans"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Dry-rot-fungus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Ink-cap
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Ink-cap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Ink-cap> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Ink-cap> <http://www.w3.org/2000/01/rdf-schema#comment> "Schade: lichte aantasting bij spint van loofhout \r\n  Herkenbaar aan:\r\n  - Schimmelweefsel (mycelium): geelbruin, oranje borstelachtig (tot stervormig) weefsel\r\n  - Strengen (rhizomorfen): oker, dun, maar vaak geen strengen\r\n  - Vruchtlichaam (carpoforen en sporen): beige hoed op dunne steel (ze zijn broos, drogen snel uit en worden zwart)\r\n  Milieu: milieu met zuiver water (dus vaak vocht uit condensatie)"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Ink-cap> <http://www.w3.org/2000/01/rdf-schema#label> "Coprinus spp."@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Ink-cap> <http://www.w3.org/2000/01/rdf-schema#label> "Ink cap"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Ink-cap> <http://www.w3.org/2000/01/rdf-schema#label> "Inktzwam"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Ink-cap> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Oak-polypore
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Oak-polypore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Oak-polypore> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Oak-polypore> <http://www.w3.org/2000/01/rdf-schema#comment> "Schade: WITROT: verbleekt en ontvezeld hout\r\n  Herkenbaar aan:\r\n  - Schimmelweefsel (mycelium): wit en donsachtig, zal na korte tijd vergelen: in later stadium: gele tot buirne schelpvormige uitstulpingen\r\n  - Strengen (rhizomorfen): geen\r\n  - Vruchtlichaam (carpoforen en sporen): bruin tot lichtgeel: taai, leder- of houtachtig plaatvormig, onderzijde poriën (in lagen)\r\n  Milieu: bij voorkeur eikenhout (ook kastanje en aanliggend naaldhout) optimale T: 25°C houtvochtgehalte: 30 tot 40%"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Oak-polypore> <http://www.w3.org/2000/01/rdf-schema#label> "Bruine eikenzwam"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Oak-polypore> <http://www.w3.org/2000/01/rdf-schema#label> "Donkioporia expansa"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Oak-polypore> <http://www.w3.org/2000/01/rdf-schema#label> "Oak polypore"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Oak-polypore> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Polypore-fungus
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Polypore-fungus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Polypore-fungus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Polypore-fungus> <http://www.w3.org/2000/01/rdf-schema#comment> "Schade: BRUINROT: kubische krimpscheuren, (rood)bruin\r\n  Herkenbaar aan:\r\n  - Schimmelweefsel (mycelium): wolachtige watten: wit of gebroken wit\r\n  - Strengen (rhizomorfen): dun, helder- of gebroken wit (enkel bij Antrodia vaillantii)\r\n  - Vruchtlichaam (carpoforen en sporen): plaatvormig, buisachtige poriën, wit of geel met soms roze vlekjes\r\n  Milieu: bij voorkeur naaldhout (zelden op loofhout) optimale T: 25° tot 26°C houtvochtgehalte: 40 tot 50%"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Polypore-fungus> <http://www.w3.org/2000/01/rdf-schema#label> "Antrodia spp. / Oligoporus placenta"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Polypore-fungus> <http://www.w3.org/2000/01/rdf-schema#label> "Polypore fungus"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Polypore-fungus> <http://www.w3.org/2000/01/rdf-schema#label> "Poriënzwammen"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Polypore-fungus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Surface-mould
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Surface-mould> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Surface-mould> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Surface-mould> <http://www.w3.org/2000/01/rdf-schema#comment> "Schade: oppervlakkige vekleuring\r\n  Herkenbaar aan:\r\n  - Schimmelweefsel (mycelium): niet zichtbaar\r\n  - Strengen (rhizomorfen): geen\r\n  - Vruchtlichaam (carpoforen en sporen): pluisjes of poederachtige vlekken, veelal groen, zwart, grijs of bruin, soms geel of roze\r\n  Milieu: op vochtiig hout, pleisterwerk, behangpapier... slecht verluchte plaatsen"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Surface-mould> <http://www.w3.org/2000/01/rdf-schema#label> "Oppervlakteschimmels"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Surface-mould> <http://www.w3.org/2000/01/rdf-schema#label> "Penicillium / Aspergillus / Trichoderma / Cladosporium"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Surface-mould> <http://www.w3.org/2000/01/rdf-schema#label> "Surface mould"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Surface-mould> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects> <http://www.w3.org/2000/01/rdf-schema#label> "Insecten"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects> <http://www.w3.org/2000/01/rdf-schema#label> "Insects"@en .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Brown-powderpost-beetle
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Brown-powderpost-beetle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Brown-powderpost-beetle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Brown-powderpost-beetle> <http://www.w3.org/2000/01/rdf-schema#comment> "Schade: \r\n\t\t\t\t\t\t\t\t\t\t\t  - zachte delen van hout totaal verpulverd door larve \r\n\t\t\t\t\t\t\t\t\t\t\t  - boormeel in de vorm van fijn, licht gekleurd talkachtig poeder als enig overblijfsel\r\n\t\t\t\t\t\t\t\t\t\t\t  synoniemen: parketkever\r\n\t\t\t\t\t\t\t\t\t\t\t  volwassen insect: \r\n\t\t\t\t\t\t\t\t\t\t\t  - 5tot7mm \r\n\t\t\t\t\t\t\t\t\t\t\t  - roodbruin en langgerekt \r\n\t\t\t\t\t\t\t\t\t\t\t  - 3 goed te onderscheiden delen\r\n\t\t\t\t\t\t\t\t\t\t\t  larve: korte levenscyclus van 4 tot 18 maanden\r\n\t\t\t\t\t\t\t\t\t\t\t  sporen: \r\n\t\t\t\t\t\t\t\t\t\t\t  - ronde uitvlieg \r\n\t\t\t\t\t\t\t\t\t\t\t  - openingen van 1-1,5 mm \r\n\t\t\t\t\t\t\t\t\t\t\t  - nauwelijks boormeel\r\n\t\t\t\t\t\t\t\t\t\t\t  favoriete materialen en locaties: \r\n\t\t\t\t\t\t\t\t\t\t\t  - jong, zetmeelrijk hout (zelden in historische gebouwen) \r\n\t\t\t\t\t\t\t\t\t\t\t  - parketvloeren, fineer, meubels, wandpanelen, kisten en transportpaletten\r\n\t\t\t\t\t\t\t\t\t\t\t  niet te verwarren met: kleine klopkever, in spinthoutstroken van kapconstructies en meubelen"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Brown-powderpost-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Brown powderpost beetle"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Brown-powderpost-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Lyctus brunneus"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Brown-powderpost-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Spinthoutkever"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Brown-powderpost-beetle> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=10" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Common-house-borer
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Common-house-borer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Common-house-borer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Common-house-borer> <http://www.w3.org/2000/01/rdf-schema#comment> "Schade: \r\n\t\t\t\t\t\t\t\t\t\t\t  - eitjes worden gelegd in barstjes of reeds aangetast hout, soms volledige verpulvering binnenin \r\n\t\t\t\t\t\t\t\t\t\t\t  - soms lang onzichtbaar, tot er stukken afbreken\r\n\t\t\t\t\t\t\t\t\t\t\t  synoniemen: gewone houtwormkever, meubelkever\r\n\t\t\t\t\t\t\t\t\t\t\t  volwassen insect: \r\n\t\t\t\t\t\t\t\t\t\t\t  - 2,5tot5mm \r\n\t\t\t\t\t\t\t\t\t\t\t  - donkerbruin \r\n\t\t\t\t\t\t\t\t\t\t\t  - dekschilden met kleine putjes in evenwijdige rijen  \r\n\t\t\t\t\t\t\t\t\t\t\t  - knobbeltje op nekschild\r\n\t\t\t\t\t\t\t\t\t\t\t  larve: \r\n\t\t\t\t\t\t\t\t\t\t\t  - levenscyclus van 2 tot 8 jaar \r\n\t\t\t\t\t\t\t\t\t\t\t  sporen: - vermolming (memel of 'milver') ronde uitvliegopeningen, diameter 1 tot 2 mm \r\n\t\t\t\t\t\t\t\t\t\t\t  - boormeel als fijn, lichtgeel zand, sigaarachtige staafjes die wat op op rijstkorrels lijken (onder loep)\r\n\t\t\t\t\t\t\t\t\t\t\t  favoriete materialen en locaties: \r\n\t\t\t\t\t\t\t\t\t\t\t  - zacht loofhout (beuk en hout van fruitbomen) \r\n\t\t\t\t\t\t\t\t\t\t\t  - het spinthout van eik en van naaldhout met donkere kern \r\n\t\t\t\t\t\t\t\t\t\t\t  - hout met hoog vochtgehalte of met schimmels \r\n\t\t\t\t\t\t\t\t\t\t\t  - textiel en papier \r\n\t\t\t\t\t\t\t\t\t\t\t  - ornamenten en beelden van lindehout \r\n\t\t\t\t\t\t\t\t\t\t\t  - trappen en meubels van beukenhout en plaatmateriaal met dierlijke lijm\r\n\t\t\t\t\t\t\t\t\t\t\t  niet te verwarren met: \r\n\t\t\t\t\t\t\t\t\t\t\t  - broodkever"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Common-house-borer> <http://www.w3.org/2000/01/rdf-schema#label> "Anobium punctatum"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Common-house-borer> <http://www.w3.org/2000/01/rdf-schema#label> "Common house borer"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Common-house-borer> <http://www.w3.org/2000/01/rdf-schema#label> "Kleine klopkever"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Common-house-borer> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=8" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Deathwatch-beetle
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Deathwatch-beetle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Deathwatch-beetle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Deathwatch-beetle> <http://www.w3.org/2000/01/rdf-schema#comment> "\r\n\t\t\t\t\t\t\t\t\t\t\t   Schade: \r\n\t\t\t\t\t\t\t\t\t\t\t   - aantasting vaak gepaard met schimmelinfectie \r\n\t\t\t\t\t\t\t\t\t\t\t   - hout doorzeefd met boorgangen \r\n\t\t\t\t\t\t\t\t\t\t\t   - meeste schade in de kern van het hout\r\n\t\t\t\t\t\t\t\t\t\t\t   synoniemen: bonte knaagkever, grote houtwormkever\r\n\t\t\t\t\t\t\t\t\t\t\t   volwassen insect: \r\n\t\t\t\t\t\t\t\t\t\t\t   - 4tot8m  \r\n\t\t\t\t\t\t\t\t\t\t\t   - donkerbruin engevlekt met gelige tot grijze haartjes \r\n\t\t\t\t\t\t\t\t\t\t\t   - kop verscholen onder borststuk\r\n\t\t\t\t\t\t\t\t\t\t\t   larve: \r\n\t\t\t\t\t\t\t\t\t\t\t   - erg diep in het hout \r\n\t\t\t\t\t\t\t\t\t\t\t   - levenscyclus van 1 tot 12 jaar \r\n\t\t\t\t\t\t\t\t\t\t\t   - beste ontwikkeling bij 22-25°C, RV van 80 % en houtvochtgehalte vanaf 22 %\r\n\t\t\t\t\t\t\t\t\t\t\t   sporen: \r\n\t\t\t\t\t\t\t\t\t\t\t   - ronde uitvlieg \r\n\t\t\t\t\t\t\t\t\t\t\t   - openingen, diameter 2 tot 4 mm \r\n\t\t\t\t\t\t\t\t\t\t\t   - boormeel oranje \r\n\t\t\t\t\t\t\t\t\t\t\t   - achtig tot licht bruin \r\n\t\t\t\t\t\t\t\t\t\t\t   - kleine lensvormige bolletjes (+/- 0,5 mm)\r\n\t\t\t\t\t\t\t\t\t\t\t   favoriete materialen en locaties: \r\n\t\t\t\t\t\t\t\t\t\t\t   - voorkeur voor eikenhout \r\n\t\t\t\t\t\t\t\t\t\t\t   - zelden loofhout en naaldhout \r\n\t\t\t\t\t\t\t\t\t\t\t   - vooral zachter voorjaarshout, te merken bij kops gezaagd hout \r\n\t\t\t\t\t\t\t\t\t\t\t   - vochtige plekken\r\n\t\t\t\t\t\t\t\t\t\t\t   niet te verwarren met: /"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Deathwatch-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Deathwatch beetle"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Deathwatch-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Grote klopkever"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Deathwatch-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Xestobium rufovillosum"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Deathwatch-beetle> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=8" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_House-longhorn-beetle
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_House-longhorn-beetle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_House-longhorn-beetle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_House-longhorn-beetle> <http://www.w3.org/2000/01/rdf-schema#comment> "\r\n\t\t\t\t\t\t\t\t\t\t\tSchade: \r\n\t\t\t\t\t\t\t\t\t\t\t- vooral spinthout van naaldhout \r\n\t\t\t\t\t\t\t\t\t\t\t- golvingen en scheuren in lengterichting van hout \r\n\t\t\t\t\t\t\t\t\t\t\t- graaftunnels en popkamer dicht tegen houtoppervlak\r\n\t\t\t\t\t\t\t\t\t\t\tvolwassen insect: \r\n\t\t\t\t\t\t\t\t\t\t\t- 12tot20mm \r\n\t\t\t\t\t\t\t\t\t\t\t- overwegend zwart met twee witte vlekjes op de dekschilden \r\n\t\t\t\t\t\t\t\t\t\t\t- lange voelsprieten \r\n\t\t\t\t\t\t\t\t\t\t\t- witte haartjes op borststuk \r\n\t\t\t\t\t\t\t\t\t\t\t- dikke dijen \r\n\t\t\t\t\t\t\t\t\t\t\t- vrouwtjes met lange legboor tot 25 mm\r\n\t\t\t\t\t\t\t\t\t\t\tlarve: \r\n\t\t\t\t\t\t\t\t\t\t\t- 15tot30mm \r\n\t\t\t\t\t\t\t\t\t\t\t- levenscyclus van 3 tot 10 jaar \r\n\t\t\t\t\t\t\t\t\t\t\t- knagen hoorbaar op warme dagen\r\n\t\t\t\t\t\t\t\t\t\t\tsporen: \r\n\t\t\t\t\t\t\t\t\t\t\t- ovaalvormige uitvliegopeningen (5-10 x 3-5 mm) met ruwe randjes \r\n\t\t\t\t\t\t\t\t\t\t\t- boorgangen met gekartelde vraatsporen \r\n\t\t\t\t\t\t\t\t\t\t\t- recent boormeel zeer lichtgekleurd, cilindervormig (onder loep) \r\n\t\t\t\t\t\t\t\t\t\t\t- gebouwen uit 1850-1930 vertonen vaak sporen van oude aantastingen\r\n\t\t\t\t\t\t\t\t\t\t\tfavoriete materialen en locaties: \r\n\t\t\t\t\t\t\t\t\t\t\t- bijna uitsluitend spinthout van jong, droog naaldhout \r\n\t\t\t\t\t\t\t\t\t\t\t- warmere plekken\r\n\t\t\t\t\t\t\t\t\t\t\tniet te verwarren met: \r\n\t\t\t\t\t\t\t\t\t\t\t- uitvliegopeningen van houtwespen (Siricidae), meestal alleen in levend, pas gekapt hout. Cilindervormige larven en boorgangen 6 tot 9 mm breed en ca. 20 cm lang \r\n\t\t\t\t\t\t\t\t\t\t\t- reuzenhoutwesp (Urocerus gigas), met ronde uitvliegopeningen van 4 tot 10 mm \r\n\t\t\t\t\t\t\t\t\t\t\t- volwassen meeltor (Tenebrio molitor), ook lang (+/- 15 mm) maar larve vooral in bloemvoorraden. Soms ook in sterk rottend tuinhof maar zelden in gebouwen"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_House-longhorn-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "House longhorn beetle"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_House-longhorn-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Huisboktor"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_House-longhorn-beetle> <http://www.w3.org/2000/01/rdf-schema#label> "Hylotrupes bajulus"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_House-longhorn-beetle> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=8" .
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Wood-boring-weevil
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Wood-boring-weevil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Wood-boring-weevil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Wood-boring-weevil> <http://www.w3.org/2000/01/rdf-schema#comment> "Schade: \r\n\t\t\t\t\t\t\t\t\t\t - onregelmatig geërodeerd hout \r\n\t\t\t\t\t\t\t\t\t\t - gelaagdheid in hout, waarbij hardere deel van jaarringen minder aangetast wordt\r\n\t\t\t\t\t\t\t\t\t\t volwassen insect: \r\n\t\t\t\t\t\t\t\t\t\t - 2tot3mm \r\n\t\t\t\t\t\t\t\t\t\t - donkerbruin met opvallende snuit \r\n\t\t\t\t\t\t\t\t\t\t - schilden en borststuk vol putjes\r\n\t\t\t\t\t\t\t\t\t\t larve: Geen info\r\n\t\t\t\t\t\t\t\t\t\t sporen: \r\n\t\t\t\t\t\t\t\t\t\t - boormeel als fijne hagelslag  \r\n\t\t\t\t\t\t\t\t\t\t - kleine uitvliegopeningen (1 mm)\r\n\t\t\t\t\t\t\t\t\t\t favoriete materialen en locaties: \r\n\t\t\t\t\t\t\t\t\t\t - vochtige kelders in combinatie met kelderzwam \r\n\t\t\t\t\t\t\t\t\t\t - plinten of kasten tegen vochtige muur \r\n\t\t\t\t\t\t\t\t\t\t - larven in zacht voorjaarshout\r\n\t\t\t\t\t\t\t\t\t\t niet te verwarren met: spinthoutkever"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Wood-boring-weevil> <http://www.w3.org/2000/01/rdf-schema#label> "Euophryum confine / Pentarthrum huttoni"@lat .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Wood-boring-weevil> <http://www.w3.org/2000/01/rdf-schema#label> "Kleine snuitkever"@nl .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Wood-boring-weevil> <http://www.w3.org/2000/01/rdf-schema#label> "Wood boring weevil"@en .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Wood-boring-weevil> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=8" .
+# 
+# https://w3id.org/dot#ClassifiedDamage
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/resource/Katholieke_Universiteit_Leuven
+# 
+# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
