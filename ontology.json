@@ -81,7 +81,7 @@
   "@id" : "https://mdcs.monumentenkennis.nl/damageatlas/ontology#Natural-stone-damage_Biological-growth",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen",
+  "@id" : "https://w3id.org/con-tax/damages/mwv",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ],
   "http://creativecommons.org/ns#license" : [ {
     "@id" : "https://creativecommons.org/licenses/by/4.0/"
@@ -91,7 +91,7 @@
   } ],
   "http://purl.org/dc/terms/decription" : [ {
     "@language" : "en",
-    "@value" : "The Monumentenwacht Vlaanderen Damage ontology is manually created based on existing PDF reports of Monumentenwacht regarding damage inspections. In its current state, it contains content regarding timber damage [1] and damage caused by insects [2]. It is defined as an extension of the generic Damage Topology Ontology (DOT, available at https://w3id.org/dot#).\r\n  [1] Schoeters, E., Heerwegh, L., & van Laar, B. (2005). Biologische aantastingen in hout. Retrieved from https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf\r\n  [2] Deknopper, A. (2010). Dieren in en op Gebouwen: Insecten. Retrieved from https://www.monumentenwacht.be/files/brochure_insecten.pdf"
+    "@value" : "The MWV Damage (MWV-D) ontology is manually created based on existing PDF reports of Monumentenwacht Vlaanderen regarding damage inspections. In its current state, it contains content regarding timber damage [1] and damage caused by insects [2]. It is defined as an extension of the generic Damage Topology Ontology (DOT, available at https://w3id.org/dot#).\r\n  [1] Schoeters, E., Heerwegh, L., & van Laar, B. (2005). Biologische aantastingen in hout. Retrieved from https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf\r\n  [2] Deknopper, A. (2010). Dieren in en op Gebouwen: Insecten. Retrieved from https://www.monumentenwacht.be/files/brochure_insecten.pdf"
   } ],
   "http://purl.org/dc/terms/issued" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
@@ -99,13 +99,13 @@
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@language" : "en",
-    "@value" : "Monumentenwacht Vlaanderen Damage Ontology"
+    "@value" : "MWV Damage Ontology"
   } ],
   "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
-    "@value" : "mw-d"
+    "@value" : "mwv-d"
   } ],
   "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
-    "@value" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#"
+    "@value" : "https://w3id.org/con-tax/damages/mwv#"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -115,7 +115,7 @@
     "@value" : "0.0.1"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Natural-stone-damage_Biological-growth_Insects",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Natural-stone-damage_Biological-growth_Insects",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "nl",
@@ -128,7 +128,7 @@
     "@id" : "https://mdcs.monumentenkennis.nl/damageatlas/ontology#Natural-stone-damage_Biological-growth"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Natural-stone-damage_Biological-growth_Insects_European-orchard-bee",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Natural-stone-damage_Biological-growth_Insects_European-orchard-bee",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -148,10 +148,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=18"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Natural-stone-damage_Biological-growth_Insects"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Natural-stone-damage_Biological-growth_Insects"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -164,7 +164,7 @@
     "@id" : "https://w3id.org/dot#ClassifiedDamage"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -174,10 +174,10 @@
     "@value" : "Biologische groei"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "nl",
@@ -187,10 +187,10 @@
     "@value" : "Insects"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Bread-beetle",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects_Bread-beetle",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -210,10 +210,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=17"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Cockroaches",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects_Cockroaches",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -233,10 +233,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=18"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Deathwatch-or-Spider-beetle",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects_Deathwatch-or-Spider-beetle",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -256,10 +256,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=17"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Dust-or-book-lice",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects_Dust-or-book-lice",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -279,10 +279,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=17"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Firebrat",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects_Firebrat",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -302,10 +302,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=16"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Paperfish",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects_Paperfish",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -325,10 +325,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=16"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Silvervish",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects_Silvervish",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -348,10 +348,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=16"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Thrips",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects_Thrips",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -371,10 +371,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=18"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects_Venerable-silverfish",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects_Venerable-silverfish",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -394,10 +394,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=16"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Paper-damage_Biological-growth_Insects"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Textile-damage",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "nl",
@@ -410,7 +410,7 @@
     "@id" : "https://w3id.org/dot#ClassifiedDamage"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Textile-damage_Biological-growth",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -420,10 +420,10 @@
     "@value" : "Biologische groei"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Textile-damage"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Textile-damage_Biological-growth_Insects",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "nl",
@@ -433,10 +433,10 @@
     "@value" : "Insects"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Textile-damage_Biological-growth"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Casemaking-clothes-moth",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Textile-damage_Biological-growth_Insects_Casemaking-clothes-moth",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -456,10 +456,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=14"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Textile-damage_Biological-growth_Insects"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Clothes-moth",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Textile-damage_Biological-growth_Insects_Clothes-moth",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -479,10 +479,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=14"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Textile-damage_Biological-growth_Insects"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Fur-beetle",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Textile-damage_Biological-growth_Insects_Fur-beetle",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -502,10 +502,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=14"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Textile-damage_Biological-growth_Insects"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Larder-beetle",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Textile-damage_Biological-growth_Insects_Larder-beetle",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -525,10 +525,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=14"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Textile-damage_Biological-growth_Insects"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects_Varied-carpet-and-Museum-beetle",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Textile-damage_Biological-growth_Insects_Varied-carpet-and-Museum-beetle",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -548,10 +548,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=12"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Textile-damage_Biological-growth_Insects"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Textile-damage_Biological-growth_Insects"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "nl",
@@ -564,7 +564,7 @@
     "@id" : "https://w3id.org/dot#ClassifiedDamage"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -574,10 +574,10 @@
     "@value" : "Biologische groei"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -587,10 +587,10 @@
     "@value" : "Schimmels en zwammen"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Black-yeast",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi_Black-yeast",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -610,10 +610,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Bracket-fungi",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi_Bracket-fungi",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -633,10 +633,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Cellar-fungus",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi_Cellar-fungus",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -656,10 +656,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Cup-fungus",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi_Cup-fungus",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -679,10 +679,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Dry-rot-fungus",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi_Dry-rot-fungus",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -702,10 +702,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Ink-cap",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi_Ink-cap",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -725,10 +725,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Oak-polypore",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi_Oak-polypore",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -748,10 +748,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Polypore-fungus",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi_Polypore-fungus",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -771,10 +771,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi_Surface-mould",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi_Surface-mould",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -794,10 +794,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Fungi"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Insects",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "nl",
@@ -807,10 +807,10 @@
     "@value" : "Insects"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Brown-powderpost-beetle",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Insects_Brown-powderpost-beetle",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -830,10 +830,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=10"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Insects"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Common-house-borer",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Insects_Common-house-borer",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -853,10 +853,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=8"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Insects"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Deathwatch-beetle",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Insects_Deathwatch-beetle",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -876,10 +876,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=8"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Insects"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_House-longhorn-beetle",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Insects_House-longhorn-beetle",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -899,10 +899,10 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=8"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Insects"
   } ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects_Wood-boring-weevil",
+  "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Insects_Wood-boring-weevil",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "nl",
@@ -922,7 +922,7 @@
     "@value" : "https://www.monumentenwacht.be/files/brochure_insecten.pdf#page=8"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#Timber-damage_Biological-growth_Insects"
+    "@id" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Insects"
   } ]
 }, {
   "@id" : "https://w3id.org/dot#ClassifiedDamage",
