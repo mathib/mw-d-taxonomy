@@ -37,28 +37,28 @@
         "value" : "mwv-d",
         "type" : "label"
       } ],
-      "preferredNamespaceUri" : [ {
-        "identifier" : "preferredNamespaceUri",
-        "language" : "undefined",
-        "value" : "https://w3id.org/con-tax/damages/mwv#",
-        "type" : "label"
-      } ],
       "versionInfo" : [ {
         "identifier" : "versionInfo",
         "language" : "undefined",
         "value" : "0.0.1",
         "type" : "label"
       } ],
-      "title" : [ {
-        "identifier" : "title",
-        "language" : "en",
-        "value" : "MWV Damage Ontology",
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/con-tax/damages/mwv#",
         "type" : "label"
       } ],
       "issued" : [ {
         "identifier" : "issued",
         "language" : "undefined",
         "value" : "2020-11-29",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "MWV Damage Ontology",
         "type" : "label"
       } ]
     }
@@ -80,10 +80,10 @@
     "id" : "16",
     "type" : "owl:Class"
   }, {
-    "id" : "2",
+    "id" : "18",
     "type" : "owl:Class"
   }, {
-    "id" : "18",
+    "id" : "2",
     "type" : "owl:Class"
   }, {
     "id" : "19",
@@ -104,25 +104,25 @@
     "id" : "34",
     "type" : "owl:Class"
   }, {
-    "id" : "6",
+    "id" : "24",
     "type" : "owl:Class"
   }, {
-    "id" : "24",
+    "id" : "6",
     "type" : "owl:Class"
   }, {
     "id" : "12",
     "type" : "owl:Class"
   }, {
-    "id" : "41",
+    "id" : "9",
     "type" : "owl:Class"
   }, {
-    "id" : "9",
+    "id" : "41",
     "type" : "owl:Class"
   }, {
     "id" : "42",
     "type" : "owl:Class"
   }, {
-    "id" : "43",
+    "id" : "44",
     "type" : "owl:Class"
   }, {
     "id" : "45",
@@ -131,7 +131,7 @@
     "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "44",
+    "id" : "43",
     "type" : "owl:Class"
   }, {
     "id" : "17",
@@ -140,13 +140,13 @@
     "id" : "27",
     "type" : "owl:Class"
   }, {
-    "id" : "59",
-    "type" : "owl:Class"
-  }, {
     "id" : "13",
     "type" : "owl:Class"
   }, {
     "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
     "type" : "owl:Class"
   }, {
     "id" : "61",
@@ -164,7 +164,7 @@
     "id" : "7",
     "type" : "owl:Class"
   }, {
-    "id" : "60",
+    "id" : "59",
     "type" : "owl:Class"
   }, {
     "id" : "1",
@@ -227,23 +227,14 @@
     "label" : {
       "IRI-based" : "Timber-damage_Biological-growth_Fungi_Cup-fungus",
       "en" : "Cup fungus",
-      "nl" : "Bekerzwam",
-      "lat" : "Peziza spp."
+      "lat" : "Peziza spp.",
+      "nl" : "Bekerzwam"
     },
     "comment" : {
-      "nl" : "Schade: geen\r\n  Herkenbaar aan:\r\n\t- Schimmelweefsel (mycelium): vaak niet zichtbaar \r\n\t- Strengen (rhizomorfen): geen \r\n\t- Vruchtlichaam (carpoforen en sporen): beige; bruin, soms oranjeachtig komvormig op kort steeltjes\r\n\tMilieu: op metselwerk, in scheurtjes van plafondbepleistering, op tengellatjes"
+      "nl" : "Schade: geen\r\n  \r\nHerkenbaar aan:\r\n- Schimmelweefsel (mycelium): vaak niet zichtbaar \r\n- Strengen (rhizomorfen): geen \r\n- Vruchtlichaam (carpoforen en sporen): beige; bruin, soms oranjeachtig komvormig op kort steeltjes\r\n\r\nMilieu: op metselwerk, in scheurtjes van plafondbepleistering, op tengellatjes"
     },
     "id" : "5",
     "superClasses" : [ "0" ]
-  }, {
-    "iri" : "http://www.w3.org/2006/vcard/ns#Organization",
-    "baseIri" : "http://www.w3.org/2006/vcard/ns",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Organization"
-    },
-    "attributes" : [ "external" ],
-    "id" : "14"
   }, {
     "iri" : "https://w3id.org/con-tax/damages/mwv#Textile-damage_Biological-growth_Insects_Fur-beetle",
     "baseIri" : "https://w3id.org/con-tax/damages/mwv",
@@ -263,10 +254,19 @@
       "lat" : "Attagenus pellio"
     },
     "comment" : {
-      "nl" : "Schade: /\r\n\t\t\t\t\t\t\t\t\t\t\t volwassen insect: \r\n\t\t\t\t\t\t\t\t\t\t\t - 4tot6mm \r\n\t\t\t\t\t\t\t\t\t\t\t - zwart met één opvallend wit vlekje op dekschild\r\n\t\t\t\t\t\t\t\t\t\t\t larve: \r\n\t\t\t\t\t\t\t\t\t\t\t - 8tot11mm \r\n\t\t\t\t\t\t\t\t\t\t\t - bruingeel, borstelig, langwerpig \r\n\t\t\t\t\t\t\t\t\t\t\t - staartharen en korte haren op lichaam \r\n\t\t\t\t\t\t\t\t\t\t\t - vervellen enkele keren \r\n\t\t\t\t\t\t\t\t\t\t\t sporen: /\r\n\t\t\t\t\t\t\t\t\t\t\t favoriete materialen en locaties: \r\n\t\t\t\t\t\t\t\t\t\t\t - vogelnesten en dierlijke uitwerpselen\r\n\t\t\t\t\t\t\t\t\t\t\t - huiden van insecten, vogels en dieren \r\n\t\t\t\t\t\t\t\t\t\t\t verwant met: \r\n\t\t\t\t\t\t\t\t\t\t\t - Attagenus woodroffei die donkerbruin is en witte haartjes heeft die in banden over de dekschilden lopen. Ook de lange larven zijn erg gelijkend."
+      "nl" : "Schade: /\r\n\t\r\nvolwassen insect: \r\n- 4 tot 6mm \r\n- zwart met één opvallend wit vlekje op dekschild\r\n\r\nlarve: \r\n- 8 tot 11mm \r\n- bruingeel, borstelig, langwerpig \r\n- staartharen en korte haren op lichaam \r\n- vervellen enkele keren\r\n\r\nsporen: /\r\n\r\nfavoriete materialen en locaties: \r\n- vogelnesten en dierlijke uitwerpselen\r\n- huiden van insecten, vogels en dieren \r\n\r\nverwant met: \r\n- Attagenus woodroffei die donkerbruin is en witte haartjes heeft die in banden over de dekschilden lopen. Ook de lange larven zijn erg gelijkend."
     },
-    "id" : "15",
+    "id" : "14",
     "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.w3.org/2006/vcard/ns#Organization",
+    "baseIri" : "http://www.w3.org/2006/vcard/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organization"
+    },
+    "attributes" : [ "external" ],
+    "id" : "15"
   }, {
     "iri" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects_Dust-or-book-lice",
     "baseIri" : "https://w3id.org/con-tax/damages/mwv",
@@ -291,29 +291,6 @@
     "id" : "16",
     "superClasses" : [ "17" ]
   }, {
-    "iri" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi_Bracket-fungi",
-    "baseIri" : "https://w3id.org/con-tax/damages/mwv",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Timber-damage_Biological-growth_Fungi_Bracket-fungi",
-      "en" : "Bracket fungi",
-      "lat" : "Gloeophyllum spp.",
-      "nl" : "Plaatjeshoutzwammen"
-    },
-    "comment" : {
-      "nl" : "Schade: BRUINROT: kubische krimpscheuren, veelal lokaal\r\n  Herkenbaar aan:\r\n  - Schimmelweefsel (mycelium): geen weefsel op hout, wel in scheuren: beige of lichtbruin\r\n  - Strengen (rhizomorfen): geen\r\n  - Vruchtlichaam (carpoforen en sporen): consolevormig, plaatjes of porie_n onderaan, licht- tot donkerbruin (ook grillige vormen) bij uitdroging kurkachtig; roestbruine sporen\r\n  Milieu: naaldhout (en niet duurzaam loofhout).optimale T: 30° tot 35°C houtvochtgehalte: 40%"
-    },
-    "id" : "2",
-    "superClasses" : [ "0" ]
-  }, {
     "iri" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects_Firebrat",
     "baseIri" : "https://w3id.org/con-tax/damages/mwv",
     "instances" : 0,
@@ -328,14 +305,37 @@
     "label" : {
       "IRI-based" : "Paper-damage_Biological-growth_Insects_Firebrat",
       "en" : "Firebrat",
-      "nl" : "Ovenvisje",
-      "lat" : "Thermobia domestica"
+      "lat" : "Thermobia domestica",
+      "nl" : "Ovenvisje"
     },
     "comment" : {
       "nl" : "Dit bruine of grijze insect heeft donkere vlekken op de bovenkant. Het is iets dikker en groter (tot 20 mm) dan de andere twee soorten, is borstelachtig behaard en heeft langere staartharen en voelsprieten dan het zilvervisje. Het heeft een voorkeur voor warme ruimten, precies waar boeken papiermateriaal meestal te vinden zijn. Het richt meer schade aan dan het zilvervisje en is moeilijker te bestrijden."
     },
     "id" : "18",
     "superClasses" : [ "17" ]
+  }, {
+    "iri" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi_Bracket-fungi",
+    "baseIri" : "https://w3id.org/con-tax/damages/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Timber-damage_Biological-growth_Fungi_Bracket-fungi",
+      "en" : "Bracket fungi",
+      "nl" : "Plaatjeshoutzwammen",
+      "lat" : "Gloeophyllum spp."
+    },
+    "comment" : {
+      "nl" : "Schade: BRUINROT: kubische krimpscheuren, veelal lokaal\r\n  \r\nHerkenbaar aan:\r\n- Schimmelweefsel (mycelium): geen weefsel op hout, wel in scheuren: beige of lichtbruin\r\n- Strengen (rhizomorfen): geen\r\n- Vruchtlichaam (carpoforen en sporen): consolevormig, plaatjes of poriën onderaan, licht- tot donkerbruin (ook grillige vormen) bij uitdroging kurkachtig; roestbruine sporen\r\n\r\nMilieu: naaldhout (en niet duurzaam loofhout) ; optimale T: 30° tot 35°C ; houtvochtgehalte: 40%"
+    },
+    "id" : "2",
+    "superClasses" : [ "0" ]
   }, {
     "iri" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects_Silvervish",
     "baseIri" : "https://w3id.org/con-tax/damages/mwv",
@@ -374,11 +374,11 @@
     "label" : {
       "IRI-based" : "Timber-damage_Biological-growth_Fungi_Polypore-fungus",
       "en" : "Polypore fungus",
-      "nl" : "Poriënzwammen",
-      "lat" : "Antrodia spp. / Oligoporus placenta"
+      "lat" : "Antrodia spp. / Oligoporus placenta",
+      "nl" : "Poriënzwammen"
     },
     "comment" : {
-      "nl" : "Schade: BRUINROT: kubische krimpscheuren, (rood)bruin\r\n  Herkenbaar aan:\r\n  - Schimmelweefsel (mycelium): wolachtige watten: wit of gebroken wit\r\n  - Strengen (rhizomorfen): dun, helder- of gebroken wit (enkel bij Antrodia vaillantii)\r\n  - Vruchtlichaam (carpoforen en sporen): plaatvormig, buisachtige poriën, wit of geel met soms roze vlekjes\r\n  Milieu: bij voorkeur naaldhout (zelden op loofhout) optimale T: 25° tot 26°C houtvochtgehalte: 40 tot 50%"
+      "nl" : "Schade: BRUINROT: kubische krimpscheuren, (rood)bruin\r\n  \r\nHerkenbaar aan:\r\n- Schimmelweefsel (mycelium): wolachtige watten: wit of gebroken wit\r\n- Strengen (rhizomorfen): dun, helder- of gebroken wit (enkel bij Antrodia vaillantii)\r\n- Vruchtlichaam (carpoforen en sporen): plaatvormig, buisachtige poriën, wit of geel met soms roze vlekjes\r\n\r\nMilieu: bij voorkeur naaldhout (zelden op loofhout) ; optimale T: 25° tot 26°C ; houtvochtgehalte: 40 tot 50%"
     },
     "id" : "3",
     "superClasses" : [ "0" ]
@@ -419,8 +419,8 @@
     "label" : {
       "IRI-based" : "Paper-damage_Biological-growth_Insects_Venerable-silverfish",
       "en" : "Silverfish",
-      "nl" : "Zilvervisjes",
-      "lat" : "Thysanura"
+      "lat" : "Thysanura",
+      "nl" : "Zilvervisjes"
     },
     "comment" : {
       "nl" : "Deze ongevleugelde insecten maken nauwelijks een gedaanteverwisseling door. De drie voornaamste soorten lijken sterk op elkaar: vrij kleine (10-15 mm), spoelvormige insecten met schubben op het lichaam, drie staartharen en twee voelsprieten. Ze worden ook wel 'suikergasten' genoemd omdat ze erg van zetmeel en suikers houden. Ze voeden zich met cellulosehoudend materiaal zoals papier en lijm. Papier beschadigen ze door er laagjes af te grazen of er onregelmatige gaatjes in te bijten. Textiel dat met stijfsel behandeld is, staat ook op hun menu. Ze zijn erg lichtschuw, waardoor ze vooral 's nachts actief zijn en snel wegkruipen als je er met een zaklamp op schijnt."
@@ -451,29 +451,6 @@
     "id" : "34",
     "superClasses" : [ "17" ]
   }, {
-    "iri" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi_Dry-rot-fungus",
-    "baseIri" : "https://w3id.org/con-tax/damages/mwv",
-    "instances" : 0,
-    "annotations" : {
-      "seeAlso" : [ {
-        "identifier" : "seeAlso",
-        "language" : "undefined",
-        "value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Timber-damage_Biological-growth_Fungi_Dry-rot-fungus",
-      "en" : "Dry rot fungus",
-      "nl" : "Huiszwam",
-      "lat" : "Serpula lacrymans"
-    },
-    "comment" : {
-      "nl" : "Schade: BRUINROT: veelal diepe kubische krimpscheuren, hout kleurt donkerbruin\r\n  Herkenbaar aan:\r\n  - Schimmelweefsel (mycelium): witte vlokken, viltachtig, soms gele of rode vlekken, later grauw verkleuren\r\n  - Strengen (rhizomorfen): aanvankelijk plat, soepel en wit; later rond, stijf en grijs, bruin of zwart (spinnenwebachtige structuur)\r\n  - Vruchtlichaam (carpoforen en sporen): plaat- of consolevormig; roest- of geelbruin, witte rand adervormige plooien, ondiepe poriën, roestbruine sporen (stoflaag)\r\n  Milieu: naaldhout en loofhout optimale t: 18° tot 20°C houtvochtgehalte: 30 tot 40% (opgelet: verspreidt zich over gelijk welk materiaal)"
-    },
-    "id" : "6",
-    "superClasses" : [ "0" ]
-  }, {
     "iri" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects_Paperfish",
     "baseIri" : "https://w3id.org/con-tax/damages/mwv",
     "instances" : 0,
@@ -497,6 +474,29 @@
     "id" : "24",
     "superClasses" : [ "17" ]
   }, {
+    "iri" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi_Dry-rot-fungus",
+    "baseIri" : "https://w3id.org/con-tax/damages/mwv",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.monumentenwacht.be/files/brochure_aantastinghout.pdf#page=15",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Timber-damage_Biological-growth_Fungi_Dry-rot-fungus",
+      "en" : "Dry rot fungus",
+      "lat" : "Serpula lacrymans",
+      "nl" : "Huiszwam"
+    },
+    "comment" : {
+      "nl" : "Schade: BRUINROT: veelal diepe kubische krimpscheuren, hout kleurt donkerbruin\r\n  \r\nHerkenbaar aan:\r\n- Schimmelweefsel (mycelium): witte vlokken, viltachtig, soms gele of rode vlekken, later grauw verkleuren\r\n- Strengen (rhizomorfen): aanvankelijk plat, soepel en wit; later rond, stijf en grijs, bruin of zwart (spinnenwebachtige structuur)\r\n- Vruchtlichaam (carpoforen en sporen): plaat- of consolevormig; roest- of geelbruin, witte rand adervormige plooien, ondiepe poriën, roestbruine sporen (stoflaag)\r\n\r\nMilieu: naaldhout en loofhout ; optimale T: 18° tot 20°C ; houtvochtgehalte: 30 tot 40% (opgelet: verspreidt zich over gelijk welk materiaal)"
+    },
+    "id" : "6",
+    "superClasses" : [ "0" ]
+  }, {
     "iri" : "https://w3id.org/con-tax/damages/mwv#Textile-damage_Biological-growth_Insects_Clothes-moth",
     "baseIri" : "https://w3id.org/con-tax/damages/mwv",
     "instances" : 0,
@@ -515,19 +515,10 @@
       "nl" : "Kleermot"
     },
     "comment" : {
-      "nl" : "Schade: \r\n\t\t\t\t\t\t\t\t\t\t\t   - onregelmatige gaten in textiel\r\n\t\t\t\t\t\t\t\t\t\t\t   volwassen insect: \r\n\t\t\t\t\t\t\t\t\t\t\t   - 5tot7mm \r\n\t\t\t\t\t\t\t\t\t\t\t   - effen, licht glanzende, goudkleurige vleugels, die in rust het achterlijf bedekken \r\n\t\t\t\t\t\t\t\t\t\t\t   - levenscyclus van amper een paar weken \r\n\t\t\t\t\t\t\t\t\t\t\t   - meestal binnengebracht via besmette voorwerpen\r\n\t\t\t\t\t\t\t\t\t\t\t   larve: \r\n\t\t\t\t\t\t\t\t\t\t\t   - wit, lang en smal: 10 mm \r\n\t\t\t\t\t\t\t\t\t\t\t   - rond bruin kopje \r\n\t\t\t\t\t\t\t\t\t\t\t   - komen voor als naakte larve of verscholen in een beschermende koker \r\n\t\t\t\t\t\t\t\t\t\t\t   - levenscyclus van bijna 1 jaar\r\n\t\t\t\t\t\t\t\t\t\t\t   sporen: \r\n\t\t\t\t\t\t\t\t\t\t\t   - afval, tunnelvormige spinsels en korrels\r\n\t\t\t\t\t\t\t\t\t\t\t   favoriete materialen en locaties: \r\n\t\t\t\t\t\t\t\t\t\t\t   - donkere plaatsen \r\n\t\t\t\t\t\t\t\t\t\t\t   - vervuild textiel zoals wol, bont en veren \r\n\t\t\t\t\t\t\t\t\t\t\t   - vogelnesten en dierlijke uitwerpselen\r\n\t\t\t\t\t\t\t\t\t\t\t   verwant met: /"
+      "nl" : "Schade: \r\n- onregelmatige gaten in textiel\r\n\r\nvolwassen insect: \r\n- 5 tot 7mm \r\n- effen, licht glanzende, goudkleurige vleugels, die in rust het achterlijf bedekken \r\n- levenscyclus van amper een paar weken \r\n- meestal binnengebracht via besmette voorwerpen\r\n\r\nlarve: \r\n- wit, lang en smal: 10 mm \r\n- rond bruin kopje \r\n- komen voor als naakte larve of verscholen in een beschermende koker \r\n- levenscyclus van bijna 1 jaar\r\n\r\nsporen: \r\n- afval, tunnelvormige spinsels en korrels\r\n\r\nfavoriete materialen en locaties: \r\n- donkere plaatsen \r\n- vervuild textiel zoals wol, bont en veren \r\n- vogelnesten en dierlijke uitwerpselen\r\n\r\nverwant met: /"
     },
     "id" : "12",
     "superClasses" : [ "13" ]
-  }, {
-    "iri" : "http://www.w3.org/2006/vcard/ns#Individual",
-    "baseIri" : "http://www.w3.org/2006/vcard/ns",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Individual"
-    },
-    "attributes" : [ "external" ],
-    "id" : "41"
   }, {
     "iri" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi_Cellar-fungus",
     "baseIri" : "https://w3id.org/con-tax/damages/mwv",
@@ -543,11 +534,11 @@
     "label" : {
       "IRI-based" : "Timber-damage_Biological-growth_Fungi_Cellar-fungus",
       "en" : "Cellar fungus",
-      "nl" : "Kelderzwam",
-      "lat" : "Coniophora puteana / Coniophora marmorata"
+      "lat" : "Coniophora puteana / Coniophora marmorata",
+      "nl" : "Kelderzwam"
     },
     "comment" : {
-      "nl" : "Schade: BRUINROT: ondiepe, fijne kubische krimpscheuren, het hout kleurt donkerbruin\r\n  Herkenbaar aan:\r\n  - Schimmelweefsel (mycelium): komt zelden voor, beige, geelbruin, donkerbruin\r\n  - Strengen (rhizomorfen): aanvankelijk geelachtig en dun, later donkerbruin tot zwart, meestal is de opbouw waaiervormig\r\n  - Vruchtlichaam (carpoforen en sporen): zeldzaam! plaatvorm met knobbels, okerkleurig tot olijfbruin, witte rand\r\n  Milieu: naaldhout en loofhout optimale T: 25° tot 3°C houtvochtgehalte: 50 tot 60%"
+      "nl" : "Schade: BRUINROT: ondiepe, fijne kubische krimpscheuren, het hout kleurt donkerbruin\r\n  \r\nHerkenbaar aan:\r\n- Schimmelweefsel (mycelium): komt zelden voor, beige, geelbruin, donkerbruin\r\n- Strengen (rhizomorfen): aanvankelijk geelachtig en dun, later donkerbruin tot zwart, meestal is de opbouw waaiervormig\r\n- Vruchtlichaam (carpoforen en sporen): zeldzaam! plaatvorm met knobbels, okerkleurig tot olijfbruin, witte rand\r\n\r\nMilieu: naaldhout en loofhout ; optimale T: 25° tot 3°C ; houtvochtgehalte: 50 tot 60%"
     },
     "id" : "9",
     "superClasses" : [ "0" ]
@@ -570,9 +561,9 @@
       "lat" : "Dermestes lardarius"
     },
     "comment" : {
-      "nl" : "Schade: /\r\n\t\t\t\t\t\t\t\t\t\t\t   volwassen insect: \r\n\t\t\t\t\t\t\t\t\t\t\t   - 6tot10mm \r\n\t\t\t\t\t\t\t\t\t\t\t   - bruin tot zwart \r\n\t\t\t\t\t\t\t\t\t\t\t   - bovenste helft van dekschilden donkergeel behaard met zes zwarte stipjes\r\n\t\t\t\t\t\t\t\t\t\t\t   larve: \r\n\t\t\t\t\t\t\t\t\t\t\t   - 10tot13mm \r\n\t\t\t\t\t\t\t\t\t\t\t   - lang en smal \r\n\t\t\t\t\t\t\t\t\t\t\t   - bruinachtige rug en dunne lange haartjes \r\n\t\t\t\t\t\t\t\t\t\t\t   - geen staartharen, maar twee haakjes aan uiteinde \r\n\t\t\t\t\t\t\t\t\t\t\t   - werpen tot 6 keer huidjes af\r\n\t\t\t\t\t\t\t\t\t\t\t   sporen: \r\n\t\t\t\t\t\t\t\t\t\t\t   - larvenhuidjes tussen duivenuitwerpselen\r\n\t\t\t\t\t\t\t\t\t\t\t   favoriete materialen en locaties: \r\n\t\t\t\t\t\t\t\t\t\t\t   - dode dieren, insecten en vogelnesten, op zolders en in torens \r\n\t\t\t\t\t\t\t\t\t\t\t   - wol en zijde \r\n\t\t\t\t\t\t\t\t\t\t\t   - rottend hout (waarin larven verpoppen)\r\n\t\t\t\t\t\t\t\t\t\t\t   verwant met: \r\n\t\t\t\t\t\t\t\t\t\t\t   - Dermestes maculatus en Dermestes haemorrhoidalis die volledig zwart zijn en geen haartjes hebben op de dekschilden."
+      "nl" : "Schade: /\r\n\t\r\nvolwassen insect: \r\n- 6 tot 10mm \r\n- bruin tot zwart \r\n- bovenste helft van dekschilden donkergeel behaard met zes zwarte stipjes\r\n\r\nlarve: \r\n- 10 tot 13mm \r\n- lang en smal \r\n- bruinachtige rug en dunne lange haartjes \r\n- geen staartharen, maar twee haakjes aan uiteinde \r\n- werpen tot 6 keer huidjes af\r\n\r\nsporen: \r\n- larvenhuidjes tussen duivenuitwerpselen\r\n\r\nfavoriete materialen en locaties: \r\n- dode dieren, insecten en vogelnesten, op zolders en in torens \r\n- wol en zijde \r\n- rottend hout (waarin larven verpoppen)\r\n\r\nverwant met: \r\n- Dermestes maculatus en Dermestes haemorrhoidalis die volledig zwart zijn en geen haartjes hebben op de dekschilden."
     },
-    "id" : "42",
+    "id" : "41",
     "superClasses" : [ "13" ]
   }, {
     "iri" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Insects_Wood-boring-weevil",
@@ -593,10 +584,19 @@
       "nl" : "Kleine snuitkever"
     },
     "comment" : {
-      "nl" : "Schade: \r\n\t\t\t\t\t\t\t\t\t\t - onregelmatig geërodeerd hout \r\n\t\t\t\t\t\t\t\t\t\t - gelaagdheid in hout, waarbij hardere deel van jaarringen minder aangetast wordt\r\n\t\t\t\t\t\t\t\t\t\t volwassen insect: \r\n\t\t\t\t\t\t\t\t\t\t - 2tot3mm \r\n\t\t\t\t\t\t\t\t\t\t - donkerbruin met opvallende snuit \r\n\t\t\t\t\t\t\t\t\t\t - schilden en borststuk vol putjes\r\n\t\t\t\t\t\t\t\t\t\t larve: Geen info\r\n\t\t\t\t\t\t\t\t\t\t sporen: \r\n\t\t\t\t\t\t\t\t\t\t - boormeel als fijne hagelslag  \r\n\t\t\t\t\t\t\t\t\t\t - kleine uitvliegopeningen (1 mm)\r\n\t\t\t\t\t\t\t\t\t\t favoriete materialen en locaties: \r\n\t\t\t\t\t\t\t\t\t\t - vochtige kelders in combinatie met kelderzwam \r\n\t\t\t\t\t\t\t\t\t\t - plinten of kasten tegen vochtige muur \r\n\t\t\t\t\t\t\t\t\t\t - larven in zacht voorjaarshout\r\n\t\t\t\t\t\t\t\t\t\t niet te verwarren met: spinthoutkever"
+      "nl" : "Schade: \r\n- onregelmatig geërodeerd hout \r\n- gelaagdheid in hout, waarbij hardere deel van jaarringen minder aangetast wordt\r\n\r\nvolwassen insect: \r\n- 2 tot 3mm \r\n- donkerbruin met opvallende snuit \r\n- schilden en borststuk vol putjes\r\n\r\nlarve: Geen info\r\n\r\nsporen: \r\n- boormeel als fijne hagelslag  \r\n- kleine uitvliegopeningen (1 mm)\r\n\r\nfavoriete materialen en locaties: \r\n- vochtige kelders in combinatie met kelderzwam \r\n- plinten of kasten tegen vochtige muur \r\n- larven in zacht voorjaarshout\r\n\r\nniet te verwarren met: spinthoutkever"
     },
-    "id" : "43",
-    "superClasses" : [ "44" ]
+    "id" : "42",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.w3.org/2006/vcard/ns#Individual",
+    "baseIri" : "http://www.w3.org/2006/vcard/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Individual"
+    },
+    "attributes" : [ "external" ],
+    "id" : "44"
   }, {
     "iri" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects_Bread-beetle",
     "baseIri" : "https://w3id.org/con-tax/damages/mwv",
@@ -612,8 +612,8 @@
     "label" : {
       "IRI-based" : "Paper-damage_Biological-growth_Insects_Bread-beetle",
       "en" : "Bread beetle",
-      "lat" : "Stegobium paniceum",
-      "nl" : "Broodkever"
+      "nl" : "Broodkever",
+      "lat" : "Stegobium paniceum"
     },
     "comment" : {
       "nl" : "Deze kever behoort tot dezelfde familie als de kleine klopkever en lijkt er sterk op. Hij is eerder roodbruin en wat korter of kleiner (2-3 mm), heeft geen punt op de bovenzijde van het nekschild maar meer haartjes op zijn dekschilden. Dat verschil is erg belangrijk om hem niet onnodig te bestrijden. De larven eten geen hout maar harde, zetmeelhoudende, plantaardige materialen zoals graan en zaden. Ook herbaria en geneeskrachtige planten vallen erg in hun smaak. Ze tasten zelfs planten aan die voor andere insecten giftig zijn, vandaar hun Engelse benaming 'drugstore beetle'. Bij het uitvliegen maken ze ronde uitvliegopeningen. Het hoofdbestanddeel van het feromoon waarmee de vrouwtjes de mannetjes lokken is stegobinone, wat ook de klopkever gebruikt. Er bestaan plakvallen met feromonen waarmee zowel broodkevers als klopkevers gevangen worden (zie ook Opsporing houtaantasters)."
@@ -635,11 +635,11 @@
     "label" : {
       "IRI-based" : "Timber-damage_Biological-growth_Fungi_Black-yeast",
       "en" : "Black yeast",
-      "lat" : "Aureobasidium pullulans",
-      "nl" : "Blauwschimmel"
+      "nl" : "Blauwschimmel",
+      "lat" : "Aureobasidium pullulans"
     },
     "comment" : {
-      "nl" : "Schade: blijvende grijsblauwe verkleuring\r\n  Herkenbaar aan:\r\n  - Schimmelweefsel (mycelium): soms draden (niet zichtbaar)\r\n  - Strengen (rhizomorfen): geen\r\n  - Vruchtlichaam (carpoforen en sporen): zwartachtige vruchtlichamen, een speldenknop groot\r\n  Milieu: houtvochtgehalte > 22% optimale T: 25°C"
+      "nl" : "Schade: blijvende grijsblauwe verkleuring\r\n  \r\nHerkenbaar aan:\r\n- Schimmelweefsel (mycelium): soms draden (niet zichtbaar)\r\n- Strengen (rhizomorfen): geen\r\n- Vruchtlichaam (carpoforen en sporen): zwartachtige vruchtlichamen, een speldenknop groot\r\n\r\nMilieu: houtvochtgehalte > 22% ; optimale T: 25°C"
     },
     "id" : "4",
     "superClasses" : [ "0" ]
@@ -652,8 +652,8 @@
       "en" : "Insects",
       "nl" : "Insecten"
     },
-    "subClasses" : [ "46", "47", "48", "49", "43" ],
-    "id" : "44",
+    "subClasses" : [ "46", "47", "48", "49", "42" ],
+    "id" : "43",
     "superClasses" : [ "1" ]
   }, {
     "iri" : "https://w3id.org/con-tax/damages/mwv#Paper-damage_Biological-growth_Insects",
@@ -680,22 +680,6 @@
     "id" : "27",
     "superClasses" : [ "38" ]
   }, {
-    "iri" : "http://purl.org/vocommons/voaf#Vocabulary",
-    "baseIri" : "http://purl.org/vocommons/voaf",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Vocabulary"
-    },
-    "individuals" : [ {
-      "iri" : "https://w3id.org/con-tax/damages/mwv",
-      "baseIri" : "https://w3id.org/con-tax/damages",
-      "labels" : {
-        "IRI-based" : "mwv"
-      }
-    } ],
-    "attributes" : [ "external" ],
-    "id" : "59"
-  }, {
     "iri" : "https://w3id.org/con-tax/damages/mwv#Textile-damage_Biological-growth_Insects",
     "baseIri" : "https://w3id.org/con-tax/damages/mwv",
     "instances" : 0,
@@ -704,7 +688,7 @@
       "en" : "Insects",
       "nl" : "Insecten"
     },
-    "subClasses" : [ "15", "21", "12", "60", "42" ],
+    "subClasses" : [ "14", "21", "12", "59", "41" ],
     "id" : "13",
     "superClasses" : [ "27" ]
   }, {
@@ -731,6 +715,22 @@
     "id" : "29",
     "superClasses" : [ "17" ]
   }, {
+    "iri" : "http://purl.org/vocommons/voaf#Vocabulary",
+    "baseIri" : "http://purl.org/vocommons/voaf",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vocabulary"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/con-tax/damages/mwv",
+      "baseIri" : "https://w3id.org/con-tax/damages",
+      "labels" : {
+        "IRI-based" : "mwv"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "60"
+  }, {
     "iri" : "https://mdcs.monumentenkennis.nl/damageatlas/ontology#Natural-stone-damage_Biological-growth",
     "baseIri" : "https://mdcs.monumentenkennis.nl/damageatlas/ontology",
     "instances" : 0,
@@ -755,11 +755,11 @@
     "label" : {
       "IRI-based" : "Timber-damage_Biological-growth_Fungi_Ink-cap",
       "en" : "Ink cap",
-      "lat" : "Coprinus spp.",
-      "nl" : "Inktzwam"
+      "nl" : "Inktzwam",
+      "lat" : "Coprinus spp."
     },
     "comment" : {
-      "nl" : "Schade: lichte aantasting bij spint van loofhout \r\n  Herkenbaar aan:\r\n  - Schimmelweefsel (mycelium): geelbruin, oranje borstelachtig (tot stervormig) weefsel\r\n  - Strengen (rhizomorfen): oker, dun, maar vaak geen strengen\r\n  - Vruchtlichaam (carpoforen en sporen): beige hoed op dunne steel (ze zijn broos, drogen snel uit en worden zwart)\r\n  Milieu: milieu met zuiver water (dus vaak vocht uit condensatie)"
+      "nl" : "Schade: lichte aantasting bij spint van loofhout\r\n  \r\nHerkenbaar aan:\r\n- Schimmelweefsel (mycelium): geelbruin, oranje borstelachtig (tot stervormig) weefsel\r\n- Strengen (rhizomorfen): oker, dun, maar vaak geen strengen\r\n- Vruchtlichaam (carpoforen en sporen): beige hoed op dunne steel (ze zijn broos, drogen snel uit en worden zwart)\r\n\r\nMilieu: milieu met zuiver water (dus vaak vocht uit condensatie)"
     },
     "id" : "10",
     "superClasses" : [ "0" ]
@@ -805,10 +805,10 @@
       "nl" : "Spinthoutkever"
     },
     "comment" : {
-      "nl" : "Schade: \r\n\t\t\t\t\t\t\t\t\t\t\t  - zachte delen van hout totaal verpulverd door larve \r\n\t\t\t\t\t\t\t\t\t\t\t  - boormeel in de vorm van fijn, licht gekleurd talkachtig poeder als enig overblijfsel\r\n\t\t\t\t\t\t\t\t\t\t\t  synoniemen: parketkever\r\n\t\t\t\t\t\t\t\t\t\t\t  volwassen insect: \r\n\t\t\t\t\t\t\t\t\t\t\t  - 5tot7mm \r\n\t\t\t\t\t\t\t\t\t\t\t  - roodbruin en langgerekt \r\n\t\t\t\t\t\t\t\t\t\t\t  - 3 goed te onderscheiden delen\r\n\t\t\t\t\t\t\t\t\t\t\t  larve: korte levenscyclus van 4 tot 18 maanden\r\n\t\t\t\t\t\t\t\t\t\t\t  sporen: \r\n\t\t\t\t\t\t\t\t\t\t\t  - ronde uitvlieg \r\n\t\t\t\t\t\t\t\t\t\t\t  - openingen van 1-1,5 mm \r\n\t\t\t\t\t\t\t\t\t\t\t  - nauwelijks boormeel\r\n\t\t\t\t\t\t\t\t\t\t\t  favoriete materialen en locaties: \r\n\t\t\t\t\t\t\t\t\t\t\t  - jong, zetmeelrijk hout (zelden in historische gebouwen) \r\n\t\t\t\t\t\t\t\t\t\t\t  - parketvloeren, fineer, meubels, wandpanelen, kisten en transportpaletten\r\n\t\t\t\t\t\t\t\t\t\t\t  niet te verwarren met: kleine klopkever, in spinthoutstroken van kapconstructies en meubelen"
+      "nl" : "Schade: \r\n- zachte delen van hout totaal verpulverd door larve \r\n- boormeel in de vorm van fijn, licht gekleurd talkachtig poeder als enig overblijfsel\r\n\r\nsynoniemen: parketkever\r\n\r\nvolwassen insect: \r\n- 5 tot 7mm \r\n- roodbruin en langgerekt \r\n- 3 goed te onderscheiden delen\r\n\r\nlarve: korte levenscyclus van 4 tot 18 maanden\r\n\r\nsporen: \r\n- ronde uitvlieg \r\n- openingen van 1-1,5 mm \r\n- nauwelijks boormeel\r\n\r\nfavoriete materialen en locaties: \r\n- jong, zetmeelrijk hout (zelden in historische gebouwen) \r\n- parketvloeren, fineer, meubels, wandpanelen, kisten en transportpaletten\r\n\r\nniet te verwarren met: kleine klopkever, in spinthoutstroken van kapconstructies en meubelen"
     },
     "id" : "49",
-    "superClasses" : [ "44" ]
+    "superClasses" : [ "43" ]
   }, {
     "iri" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Fungi_Oak-polypore",
     "baseIri" : "https://w3id.org/con-tax/damages/mwv",
@@ -824,11 +824,11 @@
     "label" : {
       "IRI-based" : "Timber-damage_Biological-growth_Fungi_Oak-polypore",
       "en" : "Oak polypore",
-      "nl" : "Bruine eikenzwam",
-      "lat" : "Donkioporia expansa"
+      "lat" : "Donkioporia expansa",
+      "nl" : "Bruine eikenzwam"
     },
     "comment" : {
-      "nl" : "Schade: WITROT: verbleekt en ontvezeld hout\r\n  Herkenbaar aan:\r\n  - Schimmelweefsel (mycelium): wit en donsachtig, zal na korte tijd vergelen: in later stadium: gele tot buirne schelpvormige uitstulpingen\r\n  - Strengen (rhizomorfen): geen\r\n  - Vruchtlichaam (carpoforen en sporen): bruin tot lichtgeel: taai, leder- of houtachtig plaatvormig, onderzijde poriën (in lagen)\r\n  Milieu: bij voorkeur eikenhout (ook kastanje en aanliggend naaldhout) optimale T: 25°C houtvochtgehalte: 30 tot 40%"
+      "nl" : "Schade: WITROT: verbleekt en ontvezeld hout\r\n  \r\nHerkenbaar aan:\r\n- Schimmelweefsel (mycelium): wit en donsachtig, zal na korte tijd vergelen: in later stadium: gele tot buirne schelpvormige uitstulpingen\r\n- Strengen (rhizomorfen): geen\r\n- Vruchtlichaam (carpoforen en sporen): bruin tot lichtgeel: taai, leder- of houtachtig plaatvormig, onderzijde poriën (in lagen)\r\n\r\nMilieu: bij voorkeur eikenhout (ook kastanje en aanliggend naaldhout) ; optimale T: 25°C ; houtvochtgehalte: 30 tot 40%"
     },
     "id" : "7",
     "superClasses" : [ "0" ]
@@ -847,13 +847,13 @@
     "label" : {
       "IRI-based" : "Textile-damage_Biological-growth_Insects_Varied-carpet-and-Museum-beetle",
       "en" : "Varied carpet and Museum beetle",
-      "nl" : "Tapijt- en museumkever",
-      "lat" : "Anthrenus verbasci / Anthrenus museorum"
+      "lat" : "Anthrenus verbasci / Anthrenus museorum",
+      "nl" : "Tapijt- en museumkever"
     },
     "comment" : {
-      "nl" : "Schade: \r\n\t\t\t\t\t\t\t\t\t\t\t\t- kleine gaatjes in textiel \r\n\t\t\t\t\t\t\t\t\t\t\t\t- kale plekken in pels en bont \r\n\t\t\t\t\t\t\t\t\t\t\t\t- opgezette insectengeperforeerd of weggevreten\r\n\t\t\t\t\t\t\t\t\t\t\t\tvolwassen insect: \r\n\t\t\t\t\t\t\t\t\t\t\t\t- ca.2mm \r\n\t\t\t\t\t\t\t\t\t\t\t\t- bijna rond \r\n\t\t\t\t\t\t\t\t\t\t\t\t- witte en oranje schubjes op donkere dekschilden hun schade \r\n\t\t\t\t\t\t\t\t\t\t\t\tlarve: \r\n\t\t\t\t\t\t\t\t\t\t\t\t- >1mm als ze uit eitjes komen, tot 5 mm \r\n\t\t\t\t\t\t\t\t\t\t\t\t- kort en ovaal \r\n\t\t\t\t\t\t\t\t\t\t\t\t- borstelig uiterlijk met ruige haartjes ('wolbeertjes')\r\n\t\t\t\t\t\t\t\t\t\t\t\t- vervellen enkele keren, waarbij behaarde, doorzichtige huidjes achterblijven op textiel, opengebarsten in het midden.\r\n\t\t\t\t\t\t\t\t\t\t\t\tsporen: \r\n\t\t\t\t\t\t\t\t\t\t\t\t- uitwerpselen lijken op erg fijn zand dat de kleur heeft van het textiel of het aangetaste materiaal\r\n\t\t\t\t\t\t\t\t\t\t\t\tfavoriete materialen en locaties: \r\n\t\t\t\t\t\t\t\t\t\t\t\t- eitjes in vogelnestjes en op kadavers van duiven \r\n\t\t\t\t\t\t\t\t\t\t\t\t- larven in dode insecten en opgezette dieren; vandaar veel in musea \r\n\t\t\t\t\t\t\t\t\t\t\t\t- bloemen voor het stuifmeel en de nectar\r\n\t\t\t\t\t\t\t\t\t\t\t\tverwant met: /"
+      "nl" : "Schade: \r\n- kleine gaatjes in textiel \r\n- kale plekken in pels en bont \r\n- opgezette insectengeperforeerd of weggevreten\r\n\r\nvolwassen insect: \r\n- ca.2mm \r\n- bijna rond \r\n- witte en oranje schubjes op donkere dekschilden hun schade \r\n\r\nlarve: \r\n- >1mm als ze uit eitjes komen, tot 5 mm \r\n- kort en ovaal \r\n- borstelig uiterlijk met ruige haartjes ('wolbeertjes')\r\n- vervellen enkele keren, waarbij behaarde, doorzichtige huidjes achterblijven op textiel, opengebarsten in het midden.\r\n\r\nsporen: \r\n- uitwerpselen lijken op erg fijn zand dat de kleur heeft van het textiel of het aangetaste materiaal\r\n\r\nfavoriete materialen en locaties: \r\n- eitjes in vogelnestjes en op kadavers van duiven \r\n- larven in dode insecten en opgezette dieren; vandaar veel in musea \r\n- bloemen voor het stuifmeel en de nectar\r\n\r\nverwant met: /"
     },
-    "id" : "60",
+    "id" : "59",
     "superClasses" : [ "13" ]
   }, {
     "iri" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth",
@@ -864,7 +864,7 @@
       "en" : "Biological growth",
       "nl" : "Biologische groei"
     },
-    "subClasses" : [ "0", "44" ],
+    "subClasses" : [ "0", "43" ],
     "id" : "1",
     "superClasses" : [ "40" ]
   }, {
@@ -882,11 +882,11 @@
     "label" : {
       "IRI-based" : "Timber-damage_Biological-growth_Fungi_Surface-mould",
       "en" : "Surface mould",
-      "lat" : "Penicillium / Aspergillus / Trichoderma / Cladosporium",
-      "nl" : "Oppervlakteschimmels"
+      "nl" : "Oppervlakteschimmels",
+      "lat" : "Penicillium / Aspergillus / Trichoderma / Cladosporium"
     },
     "comment" : {
-      "nl" : "Schade: oppervlakkige vekleuring\r\n  Herkenbaar aan:\r\n  - Schimmelweefsel (mycelium): niet zichtbaar\r\n  - Strengen (rhizomorfen): geen\r\n  - Vruchtlichaam (carpoforen en sporen): pluisjes of poederachtige vlekken, veelal groen, zwart, grijs of bruin, soms geel of roze\r\n  Milieu: op vochtiig hout, pleisterwerk, behangpapier... slecht verluchte plaatsen"
+      "nl" : "Schade: oppervlakkige verkleuring\r\n  \r\nHerkenbaar aan:\r\n- Schimmelweefsel (mycelium): niet zichtbaar\r\n- Strengen (rhizomorfen): geen\r\n- Vruchtlichaam (carpoforen en sporen): pluisjes of poederachtige vlekken, veelal groen, zwart, grijs of bruin, soms geel of roze\r\n\r\nMilieu: op vochtig hout, pleisterwerk, behangpapier... slecht verluchte plaatsen"
     },
     "id" : "8",
     "superClasses" : [ "0" ]
@@ -929,8 +929,8 @@
     "label" : {
       "IRI-based" : "Natural-stone-damage_Biological-growth_Insects_European-orchard-bee",
       "en" : "European orchard bee",
-      "lat" : "Osmia cornuta",
-      "nl" : "Gehoornde metselbij"
+      "nl" : "Gehoornde metselbij",
+      "lat" : "Osmia cornuta"
     },
     "comment" : {
       "nl" : "Zachtere natuursteensoorten - zoals Maastrichtersteen (beter bekend als mergelsteen) en Diestiaanse ijzerzandsteen - kunnen een geperforeerd oppervlak vertonen met her en der ronde openingen (5mm). Die worden gemaakt door onder andere graafwespen en metselbijen zoals de gehoornde metselbij (Osmia cornuta). Achter de openingen kan een heel gangenstelsel liggen, het werk van vruchtbare wijfjes die er eitjes leggen en waarin ze de larven voeden. De voorzijde van de gangen worden afgedicht met klei. De schade kan met röntgenstralen in kaart gebracht en gekwantificeerd worden, om te bepalen of er consolidatie vereist is. Dat is te vermijden met een kunstmatige biotoop."
@@ -952,11 +952,11 @@
     "label" : {
       "IRI-based" : "Textile-damage_Biological-growth_Insects_Casemaking-clothes-moth",
       "en" : "Casemaking clothes moth",
-      "nl" : "Pelsmot",
-      "lat" : "Tinea pellionella"
+      "lat" : "Tinea pellionella",
+      "nl" : "Pelsmot"
     },
     "comment" : {
-      "nl" : "Schade: \r\n\t\t\t\t\t\t\t\t\t\t   - afgegraasd textiel (fluweel), geen gaatjes\r\n\t\t\t\t\t\t\t\t\t\t   volwassen insect: \r\n\t\t\t\t\t\t\t\t\t\t   - 5tot7mm \r\n\t\t\t\t\t\t\t\t\t\t   - idem als kleermot, maar met twee bruine vlekjes op elke goudkleurige voorvleugel\r\n\t\t\t\t\t\t\t\t\t\t   larve: \r\n\t\t\t\t\t\t\t\t\t\t   - verscholen in zijden huls of koker, aan één zijde open \r\n\t\t\t\t\t\t\t\t\t\t   - aan het einde van de ontwikkeling: doorzichtige, geelachtige cocon in de huls\r\n\t\t\t\t\t\t\t\t\t\t   sporen: /\r\n\t\t\t\t\t\t\t\t\t\t   favoriete materialen en locaties: \r\n\t\t\t\t\t\t\t\t\t\t   - larven in wol, bont en veren, ook vogelnesten \r\n\t\t\t\t\t\t\t\t\t\t   - donkere, moeilijk toegankelijke plaatsen\r\n\t\t\t\t\t\t\t\t\t\t   verwant met: \r\n\t\t\t\t\t\t\t\t\t\t   - de tapijtmot (Trichophaga tapetzella), de grootste kleermot die vaak voor komt in braakballen van bijvoorbeeld de kerkuil maar nauwelijks schade aanricht aan textiel in een interieur"
+      "nl" : "Schade: \r\n- afgegraasd textiel (fluweel), geen gaatjes\r\n\r\nvolwassen insect: \r\n- 5 tot 7mm \r\n- idem als kleermot, maar met twee bruine vlekjes op elke goudkleurige voorvleugel\r\n\r\nlarve: \r\n- verscholen in zijden huls of koker, aan één zijde open \r\n- aan het einde van de ontwikkeling: doorzichtige, geelachtige cocon in de huls\r\n\r\nsporen: /\r\n\r\nfavoriete materialen en locaties: \r\n- larven in wol, bont en veren, ook vogelnesten \r\n- donkere, moeilijk toegankelijke plaatsen\r\n\r\nverwant met: \r\n- de tapijtmot (Trichophaga tapetzella), de grootste kleermot die vaak voor komt in braakballen van bijvoorbeeld de kerkuil maar nauwelijks schade aanricht aan textiel in een interieur"
     },
     "id" : "21",
     "superClasses" : [ "13" ]
@@ -975,14 +975,14 @@
     "label" : {
       "IRI-based" : "Timber-damage_Biological-growth_Insects_House-longhorn-beetle",
       "en" : "House longhorn beetle",
-      "lat" : "Hylotrupes bajulus",
-      "nl" : "Huisboktor"
+      "nl" : "Huisboktor",
+      "lat" : "Hylotrupes bajulus"
     },
     "comment" : {
-      "nl" : "\r\n\t\t\t\t\t\t\t\t\t\t\tSchade: \r\n\t\t\t\t\t\t\t\t\t\t\t- vooral spinthout van naaldhout \r\n\t\t\t\t\t\t\t\t\t\t\t- golvingen en scheuren in lengterichting van hout \r\n\t\t\t\t\t\t\t\t\t\t\t- graaftunnels en popkamer dicht tegen houtoppervlak\r\n\t\t\t\t\t\t\t\t\t\t\tvolwassen insect: \r\n\t\t\t\t\t\t\t\t\t\t\t- 12tot20mm \r\n\t\t\t\t\t\t\t\t\t\t\t- overwegend zwart met twee witte vlekjes op de dekschilden \r\n\t\t\t\t\t\t\t\t\t\t\t- lange voelsprieten \r\n\t\t\t\t\t\t\t\t\t\t\t- witte haartjes op borststuk \r\n\t\t\t\t\t\t\t\t\t\t\t- dikke dijen \r\n\t\t\t\t\t\t\t\t\t\t\t- vrouwtjes met lange legboor tot 25 mm\r\n\t\t\t\t\t\t\t\t\t\t\tlarve: \r\n\t\t\t\t\t\t\t\t\t\t\t- 15tot30mm \r\n\t\t\t\t\t\t\t\t\t\t\t- levenscyclus van 3 tot 10 jaar \r\n\t\t\t\t\t\t\t\t\t\t\t- knagen hoorbaar op warme dagen\r\n\t\t\t\t\t\t\t\t\t\t\tsporen: \r\n\t\t\t\t\t\t\t\t\t\t\t- ovaalvormige uitvliegopeningen (5-10 x 3-5 mm) met ruwe randjes \r\n\t\t\t\t\t\t\t\t\t\t\t- boorgangen met gekartelde vraatsporen \r\n\t\t\t\t\t\t\t\t\t\t\t- recent boormeel zeer lichtgekleurd, cilindervormig (onder loep) \r\n\t\t\t\t\t\t\t\t\t\t\t- gebouwen uit 1850-1930 vertonen vaak sporen van oude aantastingen\r\n\t\t\t\t\t\t\t\t\t\t\tfavoriete materialen en locaties: \r\n\t\t\t\t\t\t\t\t\t\t\t- bijna uitsluitend spinthout van jong, droog naaldhout \r\n\t\t\t\t\t\t\t\t\t\t\t- warmere plekken\r\n\t\t\t\t\t\t\t\t\t\t\tniet te verwarren met: \r\n\t\t\t\t\t\t\t\t\t\t\t- uitvliegopeningen van houtwespen (Siricidae), meestal alleen in levend, pas gekapt hout. Cilindervormige larven en boorgangen 6 tot 9 mm breed en ca. 20 cm lang \r\n\t\t\t\t\t\t\t\t\t\t\t- reuzenhoutwesp (Urocerus gigas), met ronde uitvliegopeningen van 4 tot 10 mm \r\n\t\t\t\t\t\t\t\t\t\t\t- volwassen meeltor (Tenebrio molitor), ook lang (+/- 15 mm) maar larve vooral in bloemvoorraden. Soms ook in sterk rottend tuinhof maar zelden in gebouwen"
+      "nl" : "Schade: \r\n- vooral spinthout van naaldhout \r\n- golvingen en scheuren in lengterichting van hout \r\n- graaftunnels en popkamer dicht tegen houtoppervlak\r\n\r\nvolwassen insect: \r\n- 12 tot 20mm \r\n- overwegend zwart met twee witte vlekjes op de dekschilden \r\n- lange voelsprieten \r\n- witte haartjes op borststuk \r\n- dikke dijen \r\n- vrouwtjes met lange legboor tot 25 mm\r\n\r\nlarve: \r\n- 15 tot 30mm \r\n- levenscyclus van 3 tot 10 jaar \r\n- knagen hoorbaar op warme dagen\r\n\r\nsporen: \r\n- ovaalvormige uitvliegopeningen (5-10 x 3-5 mm) met ruwe randjes \r\n- boorgangen met gekartelde vraatsporen \r\n- recent boormeel zeer lichtgekleurd, cilindervormig (onder loep) \r\n- gebouwen uit 1850-1930 vertonen vaak sporen van oude aantastingen\r\n\r\nfavoriete materialen en locaties: \r\n- bijna uitsluitend spinthout van jong, droog naaldhout \r\n- warmere plekken\r\n\r\nniet te verwarren met: \r\n- uitvliegopeningen van houtwespen (Siricidae), meestal alleen in levend, pas gekapt hout. Cilindervormige larven en boorgangen 6 tot 9 mm breed en ca. 20 cm lang \r\n- reuzenhoutwesp (Urocerus gigas), met ronde uitvliegopeningen van 4 tot 10 mm \r\n- volwassen meeltor (Tenebrio molitor), ook lang (+/- 15 mm) maar larve vooral in bloemvoorraden. Soms ook in sterk rottend tuinhof maar zelden in gebouwen"
     },
     "id" : "46",
-    "superClasses" : [ "44" ]
+    "superClasses" : [ "43" ]
   }, {
     "iri" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Insects_Deathwatch-beetle",
     "baseIri" : "https://w3id.org/con-tax/damages/mwv",
@@ -998,14 +998,14 @@
     "label" : {
       "IRI-based" : "Timber-damage_Biological-growth_Insects_Deathwatch-beetle",
       "en" : "Deathwatch beetle",
-      "lat" : "Xestobium rufovillosum",
-      "nl" : "Grote klopkever"
+      "nl" : "Grote klopkever",
+      "lat" : "Xestobium rufovillosum"
     },
     "comment" : {
-      "nl" : "\r\n\t\t\t\t\t\t\t\t\t\t\t   Schade: \r\n\t\t\t\t\t\t\t\t\t\t\t   - aantasting vaak gepaard met schimmelinfectie \r\n\t\t\t\t\t\t\t\t\t\t\t   - hout doorzeefd met boorgangen \r\n\t\t\t\t\t\t\t\t\t\t\t   - meeste schade in de kern van het hout\r\n\t\t\t\t\t\t\t\t\t\t\t   synoniemen: bonte knaagkever, grote houtwormkever\r\n\t\t\t\t\t\t\t\t\t\t\t   volwassen insect: \r\n\t\t\t\t\t\t\t\t\t\t\t   - 4tot8m  \r\n\t\t\t\t\t\t\t\t\t\t\t   - donkerbruin engevlekt met gelige tot grijze haartjes \r\n\t\t\t\t\t\t\t\t\t\t\t   - kop verscholen onder borststuk\r\n\t\t\t\t\t\t\t\t\t\t\t   larve: \r\n\t\t\t\t\t\t\t\t\t\t\t   - erg diep in het hout \r\n\t\t\t\t\t\t\t\t\t\t\t   - levenscyclus van 1 tot 12 jaar \r\n\t\t\t\t\t\t\t\t\t\t\t   - beste ontwikkeling bij 22-25°C, RV van 80 % en houtvochtgehalte vanaf 22 %\r\n\t\t\t\t\t\t\t\t\t\t\t   sporen: \r\n\t\t\t\t\t\t\t\t\t\t\t   - ronde uitvlieg \r\n\t\t\t\t\t\t\t\t\t\t\t   - openingen, diameter 2 tot 4 mm \r\n\t\t\t\t\t\t\t\t\t\t\t   - boormeel oranje \r\n\t\t\t\t\t\t\t\t\t\t\t   - achtig tot licht bruin \r\n\t\t\t\t\t\t\t\t\t\t\t   - kleine lensvormige bolletjes (+/- 0,5 mm)\r\n\t\t\t\t\t\t\t\t\t\t\t   favoriete materialen en locaties: \r\n\t\t\t\t\t\t\t\t\t\t\t   - voorkeur voor eikenhout \r\n\t\t\t\t\t\t\t\t\t\t\t   - zelden loofhout en naaldhout \r\n\t\t\t\t\t\t\t\t\t\t\t   - vooral zachter voorjaarshout, te merken bij kops gezaagd hout \r\n\t\t\t\t\t\t\t\t\t\t\t   - vochtige plekken\r\n\t\t\t\t\t\t\t\t\t\t\t   niet te verwarren met: /"
+      "nl" : "Schade: \r\n- aantasting vaak gepaard met schimmelinfectie \r\n- hout doorzeefd met boorgangen \r\n- meeste schade in de kern van het hout\r\n\r\nsynoniemen: bonte knaagkever, grote houtwormkever\r\n\r\nvolwassen insect: \r\n- 4 tot 8m  \r\n- donkerbruin engevlekt met gelige tot grijze haartjes \r\n- kop verscholen onder borststuk\r\n\r\nlarve: \r\n- erg diep in het hout \r\n- levenscyclus van 1 tot 12 jaar \r\n- beste ontwikkeling bij 22-25°C, RV van 80 % en houtvochtgehalte vanaf 22 %\r\n\r\nsporen: \r\n- ronde uitvlieg \r\n- openingen, diameter 2 tot 4 mm \r\n- boormeel oranje \r\n- achtig tot licht bruin \r\n- kleine lensvormige bolletjes (+/- 0,5 mm)\r\n\r\nfavoriete materialen en locaties: \r\n- voorkeur voor eikenhout \r\n- zelden loofhout en naaldhout \r\n- vooral zachter voorjaarshout, te merken bij kops gezaagd hout \r\n- vochtige plekken\r\n\r\nniet te verwarren met: /"
     },
     "id" : "47",
-    "superClasses" : [ "44" ]
+    "superClasses" : [ "43" ]
   }, {
     "iri" : "https://w3id.org/con-tax/damages/mwv#Timber-damage_Biological-growth_Insects_Common-house-borer",
     "baseIri" : "https://w3id.org/con-tax/damages/mwv",
@@ -1025,10 +1025,10 @@
       "nl" : "Kleine klopkever"
     },
     "comment" : {
-      "nl" : "Schade: \r\n\t\t\t\t\t\t\t\t\t\t\t  - eitjes worden gelegd in barstjes of reeds aangetast hout, soms volledige verpulvering binnenin \r\n\t\t\t\t\t\t\t\t\t\t\t  - soms lang onzichtbaar, tot er stukken afbreken\r\n\t\t\t\t\t\t\t\t\t\t\t  synoniemen: gewone houtwormkever, meubelkever\r\n\t\t\t\t\t\t\t\t\t\t\t  volwassen insect: \r\n\t\t\t\t\t\t\t\t\t\t\t  - 2,5tot5mm \r\n\t\t\t\t\t\t\t\t\t\t\t  - donkerbruin \r\n\t\t\t\t\t\t\t\t\t\t\t  - dekschilden met kleine putjes in evenwijdige rijen  \r\n\t\t\t\t\t\t\t\t\t\t\t  - knobbeltje op nekschild\r\n\t\t\t\t\t\t\t\t\t\t\t  larve: \r\n\t\t\t\t\t\t\t\t\t\t\t  - levenscyclus van 2 tot 8 jaar \r\n\t\t\t\t\t\t\t\t\t\t\t  sporen: - vermolming (memel of 'milver') ronde uitvliegopeningen, diameter 1 tot 2 mm \r\n\t\t\t\t\t\t\t\t\t\t\t  - boormeel als fijn, lichtgeel zand, sigaarachtige staafjes die wat op op rijstkorrels lijken (onder loep)\r\n\t\t\t\t\t\t\t\t\t\t\t  favoriete materialen en locaties: \r\n\t\t\t\t\t\t\t\t\t\t\t  - zacht loofhout (beuk en hout van fruitbomen) \r\n\t\t\t\t\t\t\t\t\t\t\t  - het spinthout van eik en van naaldhout met donkere kern \r\n\t\t\t\t\t\t\t\t\t\t\t  - hout met hoog vochtgehalte of met schimmels \r\n\t\t\t\t\t\t\t\t\t\t\t  - textiel en papier \r\n\t\t\t\t\t\t\t\t\t\t\t  - ornamenten en beelden van lindehout \r\n\t\t\t\t\t\t\t\t\t\t\t  - trappen en meubels van beukenhout en plaatmateriaal met dierlijke lijm\r\n\t\t\t\t\t\t\t\t\t\t\t  niet te verwarren met: \r\n\t\t\t\t\t\t\t\t\t\t\t  - broodkever"
+      "nl" : "Schade: \r\n- eitjes worden gelegd in barstjes of reeds aangetast hout, soms volledige verpulvering binnenin \r\n- soms lang onzichtbaar, tot er stukken afbreken\r\n\r\nsynoniemen: gewone houtwormkever, meubelkever\r\n\r\nvolwassen insect: \r\n- 2,5 tot 5mm \r\n- donkerbruin \r\n- dekschilden met kleine putjes in evenwijdige rijen  \r\n- knobbeltje op nekschild\r\n\r\nlarve: \r\n- levenscyclus van 2 tot 8 jaar \r\n\r\nsporen: \r\n- vermolming (memel of 'milver') ronde uitvliegopeningen, diameter 1 tot 2 mm \r\n- boormeel als fijn, lichtgeel zand, sigaarachtige staafjes die wat op op rijstkorrels lijken (onder loep)\r\n\r\nfavoriete materialen en locaties: \r\n- zacht loofhout (beuk en hout van fruitbomen) \r\n- het spinthout van eik en van naaldhout met donkere kern \r\n- hout met hoog vochtgehalte of met schimmels \r\n- textiel en papier \r\n- ornamenten en beelden van lindehout \r\n- trappen en meubels van beukenhout en plaatmateriaal met dierlijke lijm\r\n\r\nniet te verwarren met: \r\n- broodkever"
     },
     "id" : "48",
-    "superClasses" : [ "44" ]
+    "superClasses" : [ "43" ]
   }, {
     "iri" : "https://w3id.org/con-tax/damages/mwv#Paper-damage",
     "baseIri" : "https://w3id.org/con-tax/damages/mwv",
@@ -1187,7 +1187,7 @@
     "id" : "20"
   }, {
     "range" : "13",
-    "domain" : "15",
+    "domain" : "14",
     "attributes" : [ "anonymous", "object" ],
     "id" : "22"
   }, {
@@ -1236,8 +1236,8 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "50"
   }, {
-    "range" : "44",
-    "domain" : "43",
+    "range" : "43",
+    "domain" : "42",
     "attributes" : [ "anonymous", "object" ],
     "id" : "51"
   }, {
@@ -1246,22 +1246,22 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "52"
   }, {
-    "range" : "44",
+    "range" : "43",
     "domain" : "47",
     "attributes" : [ "anonymous", "object" ],
     "id" : "53"
   }, {
-    "range" : "44",
+    "range" : "43",
     "domain" : "46",
     "attributes" : [ "anonymous", "object" ],
     "id" : "54"
   }, {
-    "range" : "44",
+    "range" : "43",
     "domain" : "49",
     "attributes" : [ "anonymous", "object" ],
     "id" : "55"
   }, {
-    "range" : "44",
+    "range" : "43",
     "domain" : "48",
     "attributes" : [ "anonymous", "object" ],
     "id" : "57"
@@ -1342,7 +1342,7 @@
     "id" : "77"
   }, {
     "range" : "1",
-    "domain" : "44",
+    "domain" : "43",
     "attributes" : [ "anonymous", "object" ],
     "id" : "78"
   }, {
@@ -1357,12 +1357,12 @@
     "id" : "80"
   }, {
     "range" : "13",
-    "domain" : "42",
+    "domain" : "41",
     "attributes" : [ "anonymous", "object" ],
     "id" : "81"
   }, {
     "range" : "13",
-    "domain" : "60",
+    "domain" : "59",
     "attributes" : [ "anonymous", "object" ],
     "id" : "82"
   }, {
